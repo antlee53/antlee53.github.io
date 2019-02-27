@@ -1,0 +1,23 @@
+.navbar-default {
+    background-image: url("images/nav.background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+body {
+  background-image: url("images/background.png");
+}
+
+h1 {
+  line-height: 1;
+}
+
+footer {
+	position: static;
+	bottom:0;
+	width: 100%;
+	height: auto;
+	background: url("images/nav.background.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}

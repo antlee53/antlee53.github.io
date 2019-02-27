@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Anthony J. Lee Research</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Anthony J. Lee Research</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="about.html">The Research Lab</a>
+</li>
+<li>
+  <a href="publications.html">Publications</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="participate.html">Participate</a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Anthony J. Lee Research</h1>
+
+</div>
+
+
+<style>
+.title {
+  display: none;
+}
+</style>
+<div style="line-height: 30px" ;="">
+
+</div>
+<div class="row">
+<div class="col-sm-8">
+<h1>The Lab</h1>
+<p>We are based at The University of Stirling in Scotland. Our research covers a wide range of topics on human behaviour and cognition, including human mate preference, face and person perception, and methods and measurement in psychological science. The lab focuses on investigating research topics using a multi-disciplinary approach, using techniques from fields such as social psychology, evolutionary biology, and computer sciences.</p>
+<br/>
+<img src="images/winter.jpg" style="width: 100%;height: auto;border-radius: 10%;padding-top: 10px;"/>
+</div>
+<div class="col-sm-4">
+<h1>Latest News</h1>
+<div class="row">
+<div class="col-sm-2" style="overflow: auto; width:auto; height:500px;"><b>20 February 2019: Manuscript Accepted!</b><br>Our manuscript with collaborators at The University of Queensland (student first author Rebecca Stower, with Barnaby Dixson) has been accepted for publication in Archives of Sexual Behavior. We found that women's sexual openness is associated with women's preference for men's facial hair.<br><br><b>21 January 2019: Manuscript Accepted!</b><br>Our manuscript using data-driven approaches to identify mating-relevant traits from online dating profiles has been accepted for publication in Evolution and Human Behavior. <a href=https://psyarxiv.com/38zef/>Pre-print available here</a>.<br><br><b>17 January 2019: Manuscript Accepted!</b><br>Our manuscript with collaborators at The University of Glasgow (first author Vanessa Fasolt) has been accepted for publication in Human Ethology Bulletin. We find that a smiling (compared to neutral) expression decreases accuracy of relatedness judgements between sibling pairs.<br><br><b>14 January 2019: Stirling</b><br>We are happy to announce that we have moved to the Psychology Division at The University of Stirling.<br><br><b>08 January 2019: New Website!</b><br>Welcome to the new Anthony J. Lee Research Website!<br></div>
+</div>
+</div>
+</div>
+<hr>
+<div>
+<h1>
+People
+</h1>
+<p><div class="row">
+<div class="col-sm-4">
+<img src="images/antlee.jpeg" style="display:block;max-width:150px;max-height:150px;width: auto;height:auto;margin-left: auto;margin-right: auto;border-radius: 50%;padding-top: 10px"/>
+</div>
+<div class="col-sm-8">
+<h2>Dr. Anthony J. Lee</h2>
+<p>I am a Lecturer and The University of Stirling and been part of the division since 2019. I completed my PhD at The University of Queensland in 2015 and was a Marie Curie Fellow at The University of Glasgow. I have expertise in many statistical techniques, such as linear mixed effects modelling. Outside the lab, I am the current president of the <a href="https://www.glasgowgiants.scot">Glasgow Giants Australian Rules Football Club</a>.</p>
+<p><a href=mailto:anthony.lee@stir.ac.uk>email: anthony.lee@stir.ac.uk</a> | <a href=https://twitter.com/antlee53 target="_blank">Twitter: @antlee53</a> | <a href=https://www.stir.ac.uk/people/1090003 target="_blank">University Profile</a> | <a href=https://scholar.google.com/citations?user=5MqrYB8AAAAJ&hl=en target="_blank">Google Scholar</a> | <a href=https://orcid.org/0000-0001-8288-3393 target="_blank">ORCID</a> | <a href=http://www.researcherid.com/rid/I-8220-2012 target="_blank">ResearcherID</a> |  </p>
+</div>
+</div> <br> <div class="row">
+<div class="col-sm-4">
+<img src="images/default.png" style="display:block;max-width:150px;max-height:150px;width: auto;height:auto;margin-left: auto;margin-right: auto;border-radius: 50%;padding-top: 10px"/>
+</div>
+<div class="col-sm-8">
+<h2>Interested in joining the lab?</h2>
+<p>There are often opportunities to work in the lab, including a three-year PhD degree and various one-year Masters degrees. If you are interested in finding out more about opportunities to join the lab, please email me.</p>
+<p><a href=mailto:anthony.lee@stir.ac.uk>email: anthony.lee@stir.ac.uk</a> |  </p>
+</div>
+</div></p>
+</div>
+
+</div> <!-- articleBandContent -->
+</div> <!-- pageContent -->
+
+<footer>
+<div class="footer">
+
+<div class="row">
+  <div class="col-sm-4" style="color: white;padding-top: 40px;padding-right: 30px;padding-bottom: 40px;padding-left: 80px;height:auto;">
+    Division of Psychology<br>
+    Faculty of Natural Sciences<br>
+    University of Stirling<br>
+    Scotland, United Kingdom
+  </div>
+  <div class="col-sm-4" style="padding-top: 40px;padding-right: 30px;padding-bottom: 40px;padding-left: 40px;height:auto;">
+    <a href="https://www.stir.ac.uk/about/faculties-and-services/natural-sciences/our-research/research-groups/behaviour-and-evolution-research-group/" style="color: white">Behaviour and Evolution Research Group</a><br>
+    <a href="https://www.stir.ac.uk/about/faculties-and-services/natural-sciences/our-research/research-groups/cognition-in-complex-environments/" style="color: white">Cognition Research Group</a><br> 
+  </div>
+  <div class="col-sm-4" style="padding-top: 40px;padding-right: 60px;padding-bottom: 40px;padding-left: 40px;height:auto;">
+This website is currently under construction.   
+  </div>
+</div>
+
+</div>
+  
+<!-- js functions -->
+
+</footer>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
