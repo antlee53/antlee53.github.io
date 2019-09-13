@@ -7,7 +7,6 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -80,7 +79,9 @@ h6 {
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 
+</head>
 
+<body>
 
 <style type = "text/css">
 .main-container {
@@ -199,6 +200,8 @@ $(document).ready(function () {
 });
 </script>
 
+<div class="container-fluid main-container">
+
 <!-- tabsets -->
 
 <style type="text/css">
@@ -255,17 +258,20 @@ $(document).ready(function () {
 }
 </style>
 
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
 <!-- code folding -->
 
-
-
-
-</head>
-
-<body>
-
-
-<div class="container-fluid main-container">
 
 
 
@@ -328,7 +334,7 @@ $(document).ready(function () {
 <div class="col-sm-4">
 <h1>Latest News</h1>
 <div class="row">
-<div class="col-sm-2" style="overflow: auto; width:auto; height:500px;"><b>22 August 2019: ISHE</b><br>Anthony gave a oral and poster presentation at the Biennial Summer Institute of the International Society of Human Ethology in Zadar, Croatia on misperceptions of sexual interest.<br><br><b>01 August 2019: Manuscript Accepted!</b><br>Vanessa Fasolt, PhD student at the University of Glasgow, continues to kick goals, with another paper accepted for publication in the Journal of Vision. This paper investigates the contribution of shape and surface reflectance information in kinship detection of 3D face images.<br><br><b>26 July 2019: NE Face Meeting</b><br>Anthony gave a talk at the NE Face Meeting in Durham on a prospective method for investigating facial attractiveness by mimicking Darwinian evolution.<br><br><b>23 July 2019: Manuscript Accepted!</b><br>Our manuscript investigating birth order effects on 3rd-party kin recognition (first author Vanessa Fasolt from The University of Glasgow) has been accepted for publication in Collabra!<br><br><b>13 June 2019: Manuscript Accepted!</b><br>Our manuscript investigating developmental and environmental influences of children's judgements of facial hair has been accepted for publication in Evolution and Human Behaviour. This is work in collaboration with Nicole Nelson and Barnaby Dixson at The Unversity of Queensland.<br><br><b>01 May 2019: Invited Talk</b><br>Anthony gave a research talk to the Evolution Research Group at The University of Queensland on recent work investigating human mate preference using a data-driven approach.<br><br><b>19 April 2019: Manuscript Accepted!</b><br>Lingshan Zhang at The University of Glasgow, has had a second paper accepted in two days! Here, we investigated cross-national preferences for physical attractiveness and good earning capacity were associated with country gender equality. <a href = https://psyarxiv.com/mtsx8/> Pre-print available here</a>.<br><br><b>18 April 2019: Manuscript Accepted!</b><br>Our manuscript with student first author, Lingshan Zhang at The University of Glasgow, investigating cross-cultural differences in face perception has been accepted for publication in Perception. <a href = https://psyarxiv.com/r7asu/>Pre-print available here</a>.<br><br><b>09 April 2019: Manuscript Accepted!</b><br>Our manuscript with collaborators at The University of Queensland (Nicole Nelson and Barnaby Dixson) has been accepted for publication in Hormones and Behavior. We found that mothers are sensitive to men's beards, potentially as a cue to paternal investment.<br><br><b>20 February 2019: Manuscript Accepted!</b><br>Our manuscript with collaborators at The University of Queensland (student first author Rebecca Stower, with Barnaby Dixson) has been accepted for publication in Archives of Sexual Behavior. We found that women's sexual openness is associated with women's preference for men's facial hair.<br></div>
+<div class="col-sm-2" style="overflow: auto; width:auto; height:500px;"><b>13 September 2019: Manuscript Accepted!</b><br>Congrats to Morgan Sidari, student first author from The University of Queensland, for getting our paper accepted in Social Psychological and Personality Science. Here, we investigate preference for sexual dimorphism in bodies in a speed-dating study.<br><br><b>22 August 2019: ISHE</b><br>Anthony gave a oral and poster presentation at the Biennial Summer Institute of the International Society of Human Ethology in Zadar, Croatia on misperceptions of sexual interest.<br><br><b>01 August 2019: Manuscript Accepted!</b><br>Vanessa Fasolt, PhD student at the University of Glasgow, continues to kick goals, with another paper accepted for publication in the Journal of Vision. This paper investigates the contribution of shape and surface reflectance information in kinship detection of 3D face images.<br><br><b>26 July 2019: NE Face Meeting</b><br>Anthony gave a talk at the NE Face Meeting in Durham on a prospective method for investigating facial attractiveness by mimicking Darwinian evolution.<br><br><b>23 July 2019: Manuscript Accepted!</b><br>Our manuscript investigating birth order effects on 3rd-party kin recognition (first author Vanessa Fasolt from The University of Glasgow) has been accepted for publication in Collabra!<br><br><b>13 June 2019: Manuscript Accepted!</b><br>Our manuscript investigating developmental and environmental influences of children's judgements of facial hair has been accepted for publication in Evolution and Human Behaviour. This is work in collaboration with Nicole Nelson and Barnaby Dixson at The Unversity of Queensland.<br><br><b>01 May 2019: Invited Talk</b><br>Anthony gave a research talk to the Evolution Research Group at The University of Queensland on recent work investigating human mate preference using a data-driven approach.<br><br><b>19 April 2019: Manuscript Accepted!</b><br>Lingshan Zhang at The University of Glasgow, has had a second paper accepted in two days! Here, we investigated cross-national preferences for physical attractiveness and good earning capacity were associated with country gender equality. <a href = https://psyarxiv.com/mtsx8/> Pre-print available here</a>.<br><br><b>18 April 2019: Manuscript Accepted!</b><br>Our manuscript with student first author, Lingshan Zhang at The University of Glasgow, investigating cross-cultural differences in face perception has been accepted for publication in Perception. <a href = https://psyarxiv.com/r7asu/>Pre-print available here</a>.<br><br><b>09 April 2019: Manuscript Accepted!</b><br>Our manuscript with collaborators at The University of Queensland (Nicole Nelson and Barnaby Dixson) has been accepted for publication in Hormones and Behavior. We found that mothers are sensitive to men's beards, potentially as a cue to paternal investment.<br></div>
 </div>
 </div>
 </div>
@@ -402,23 +408,6 @@ $(document).ready(function () {
 
 
 </script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

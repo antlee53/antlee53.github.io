@@ -7,7 +7,6 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -80,7 +79,9 @@ h6 {
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 
+</head>
 
+<body>
 
 <style type = "text/css">
 .main-container {
@@ -199,6 +200,8 @@ $(document).ready(function () {
 });
 </script>
 
+<div class="container-fluid main-container">
+
 <!-- tabsets -->
 
 <style type="text/css">
@@ -255,17 +258,20 @@ $(document).ready(function () {
 }
 </style>
 
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
 <!-- code folding -->
 
-
-
-
-</head>
-
-<body>
-
-
-<div class="container-fluid main-container">
 
 
 
@@ -326,6 +332,10 @@ In Press
 <ul>
 <li>
 Holzleitner, I. J., <u>Lee, A. J.</u>, Hahn, A. C., Kandrik, M., Bovet, J., Renoult, J., Simmons, D., Garrod, O., DeBruine, L. M. &amp; Jones, B. C. (In Press) Comparing theory-driven and data-driven attractiveness models using images of real women’s faces. <i>Journal of Experimental Psychology: Human Perception and Performance</i>. <br>
+</li>
+<br>
+<li>
+Sidari, M., <u>Lee, A. J.</u>, Murphy, S., Sherlock, J., Dixson, B., &amp; Zietsch, B. (In Press) Attractive bodies: Are sexually dimorphic features important in face-to-face interactions with potential partners? <i>Social Psychology and Personality Science</i>. <br>
 </li>
 <br>
 <li>
@@ -561,23 +571,6 @@ $(document).ready(function () {
 
 
 </script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
