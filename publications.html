@@ -7,7 +7,6 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -80,7 +79,9 @@ h6 {
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 
+</head>
 
+<body>
 
 <style type = "text/css">
 .main-container {
@@ -199,6 +200,8 @@ $(document).ready(function () {
 });
 </script>
 
+<div class="container-fluid main-container">
+
 <!-- tabsets -->
 
 <style type="text/css">
@@ -255,17 +258,20 @@ $(document).ready(function () {
 }
 </style>
 
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
 <!-- code folding -->
 
-
-
-
-</head>
-
-<body>
-
-
-<div class="container-fluid main-container">
 
 
 
@@ -333,19 +339,7 @@ Holzleitner, I. J., <u>Lee, A. J.</u>, Hahn, A. C., Kandrik, M., Bovet, J., Reno
 </li>
 <br>
 <li>
-Sidari, M., <u>Lee, A. J.</u>, Murphy, S., Sherlock, J., Dixson, B., &amp; Zietsch, B. (In Press) Attractive bodies: Are sexually dimorphic features important in face-to-face interactions with potential partners? <i>Social Psychology and Personality Science</i>. <br>
-</li>
-<br>
-<li>
 Nelson, N. L., Kennedy-Costantini, S., <u>Lee, A. J.</u> &amp; Dixson, B. J. W. (In Press) Children’s judgements of facial hair are influenced by biological development and experience. <i>Evolution and Human Behavior</i>. <a href = https://doi.org/10.1016/j.evolhumbehav.2019.06.002 target="_blank">FULL TEXT AVAILABLE</a><br>
-</li>
-<br>
-<li>
-Fasolt, V., Holzleitner, I. J., <u>Lee, A. J.</u>, O’Shea, K. J., &amp; DeBruine, L. M. (In Press) Contribution of shape and surface reflectance information to kinship detection in 3D images <i>Journal of Vision</i>. <a href = https://doi.org/10.1167/19.12.9 target="_blank">FULL TEXT AVAILABLE</a><br>
-</li>
-<br>
-<li>
-Zhang, L., Wang, H., <u>Lee, A. J.</u>, DeBruine L. M., &amp; Jones, B. C. (In Press) Chinese and UK participants’ preferences for physical attractiveness and social status in potential mates (Stage 2 Registered Report). <i>Royal Society Open Science</i>. <br>
 </li>
 <br>
 <li>
@@ -354,6 +348,10 @@ Alharbi, S. A. H., Zhang, L., O’Shea, K. J., Fasolt, V., <u>Lee, A. J.</u>, De
 <br>
 <li>
 O’Shea, K. J., Hahn, A. C., Lai, R., Holzleitner, I. J., Fasolt, V., <u>Lee, A. J.</u>, Schild, C., Cassar, R., Feinberg, D., DeBruine, L. M. &amp; Jones, B. C. (In Press) Is vocal attractiveness a cue of young adult women’s susceptibility to infectious illnesses? (Stage 1 Registered Report) <i>Evolutionary Human Sciences</i>. <br>
+</li>
+<br>
+<li>
+Clarkson, T. R., Sidari, M. J., Sains, R., Alexander, M., Harrison, M., Mefodeva, V., Pearson, S., <u>Lee, A. J.</u> &amp; Dixson, B. J. W. (In Press) A multivariate analysis of women’s mating strategies and sexual selection on facial masculinity and beardedness in men. <i>Royal Society Open Science</i>. <br>
 </ul>
 <br>
 <h3>
@@ -382,6 +380,14 @@ Marcinkowska, U. M., Rantala, M., <u>Lee, A. J.</u>, Kozlov, M., Aavik, M. V., C
 <br>
 <li>
 Dixson, B. J. W., Kennedy-Costantini, S., <u>Lee, A. J.</u>, &amp; Nelson, N. L. (2019) Mothers are sensitive to men’s beards as a cue to paternal investment. <i>Hormones and Behavior, 113</i>, 55-66. <a href = https://doi.org/10.1016/j.yhbeh.2019.04.005 target="_blank">FULL TEXT AVAILABLE</a><br>
+</li>
+<br>
+<li>
+Fasolt, V., Holzleitner, I. J., <u>Lee, A. J.</u>, O’Shea, K. J., &amp; DeBruine, L. M. (2019) Contribution of shape and surface reflectance information to kinship detection in 3D images <i>Journal of Vision, 19 (12)</i>, 1-9. <a href = https://doi.org/10.1167/19.12.9 target="_blank">FULL TEXT AVAILABLE</a><br>
+</li>
+<br>
+<li>
+Zhang, L., Wang, H., <u>Lee, A. J.</u>, DeBruine L. M., &amp; Jones, B. C. (2019) Chinese and UK participants’ preferences for physical attractiveness and social status in potential mates (Stage 2 Registered Report). <i>Royal Society Open Science, 6 (11)</i>, 181243. <a href = https://doi.org/10.1098/rsos.181243 target="_blank">FULL TEXT AVAILABLE</a><br>
 </li>
 <br>
 <li>
@@ -569,23 +575,6 @@ $(document).ready(function () {
 
 
 </script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
