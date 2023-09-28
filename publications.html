@@ -13,7 +13,7 @@
 
 <title>Publications</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -151,11 +151,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -184,8 +188,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -193,16 +197,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -300,17 +297,12 @@ In Press
 </h3>
 <ul>
 <li>
-<u>Lee, A. J.</u>, &amp; McGuire, N. K. J. (In Press) Women’s
-preferences for masculinity in male faces are predicted by material
-scarcity, but not time or psychological scarcity. <i>Evolutionary
-Psychology</i>. <b> *</b><br>
-</li>
-<br>
-<li>
-Dong, J., Leger, K., Shiramizu, K. M., Marcinkowska, U. M., <u>Lee, A.
-J.</u>, and Jones, B. C. (In Press) The importance of face-shape
-masculinity for perceptions of male dominance depends on study design.
-<i>Scientific Reports</i>. <br>
+Wainwright, H., Zhao, A., Sidari, M. J., <u>Lee, A. J.</u>, Roberts, N.,
+Makras, T., &amp; Zietsch, B. P. (In Press) Laughter and ratings of
+funniness in speed-dating do not support the fitness indicator
+hypothesis of humour <i>Evolution and Human Behavior</i>.
+<a href = https://doi.org/10.1016/j.evolhumbehav.2023.09.005 target="_blank">FULL
+TEXT AVAILABLE</a><br>
 </ul>
 <br>
 <h3>
@@ -320,8 +312,8 @@ masculinity for perceptions of male dominance depends on study design.
 <li>
 <u>Lee, A. J.</u>, Jones, B. C., Zietsch, B. P., Jern, P., Connolly, H.,
 &amp; Marcinkowska, U. (2023) No evidence that sociosexual orientation
-moderates effects of conception probability on women<d5>s preferences
-for male facial masculinity. <i>Scientific Reports, 13</i>, 10245.
+moderates effects of conception probability on women’s preferences for
+male facial masculinity. <i>Scientific Reports, 13</i>, 10245.
 <a href = https://doi.org/10.1038/s41598-023-37404-6 target="_blank">FULL
 TEXT AVAILABLE</a><b> *</b><br>
 </li>
@@ -336,11 +328,29 @@ TEXT AVAILABLE</a><b> *</b><br>
 </li>
 <br>
 <li>
+<u>Lee, A. J.</u>, &amp; McGuire, N. K. J. (2023) Women’s preferences
+for masculinity in male faces are predicted by material scarcity, but
+not time or psychological scarcity. <i>Evolutionary Psychology,
+21(3)</i>, .
+<a href = https://doi.org/10.1177/14747049231175073 target="_blank">FULL
+TEXT AVAILABLE</a><b> *</b><br>
+</li>
+<br>
+<li>
 Bartlome, R. I., &amp; <u>Lee, A. J.</u> (2023) Facial attractiveness,
 but not facial masculinity, is used as a cue to paternal involvement in
 fathers. <i>Adaptive Human Behavior and Physiology, 9</i>, 182-197.
 <a href = https://doi.org/10.1007/s40750-023-00217-y  target="_blank">FULL
 TEXT AVAILABLE</a><b> *</b><br>
+</li>
+<br>
+<li>
+Dong, J., Leger, K., Shiramizu, K. M., Marcinkowska, U. M., <u>Lee, A.
+J.</u>, and Jones, B. C. (2023) The importance of face-shape masculinity
+for perceptions of male dominance depends on study design. <i>Scientific
+Reports, 13</i>, 12620.
+<a href = https://doi.org/10.1038/s41598-023-39912-x  target="_blank">FULL
+TEXT AVAILABLE</a><br>
 </li>
 <br>
 <li>
@@ -370,8 +380,8 @@ TEXT AVAILABLE</a><br>
 Tybur, J. M., Jones, B. C., Holzleitner, I. J., <u>Lee, A. J.</u>, Fan,
 L., &amp; DeBruine, L. M. (2022) Re-evaluating the relationship between
 pathogen avoidance and preferences for facial symmetry and sexual
-dimorphism: A registered report. <i>Evolution and Human Behavior, 43
-(3)</i>, 212-223.
+dimorphism: A registered report. <i>Evolution and Human Behavior,
+43(3)</i>, 212-223.
 <a href = https://doi.org/10.1016/j.evolhumbehav.2022.01.003 target="_blank">FULL
 TEXT AVAILABLE</a><br>
 </li>

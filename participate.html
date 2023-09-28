@@ -13,7 +13,7 @@
 
 <title>Participate In Research</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -151,11 +151,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -184,8 +188,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -193,16 +197,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -295,65 +292,15 @@ Participate In Research
 data. To participate in this research, click the links below.</p>
 <p>If you are a University of Stirling student participating for tokens,
 please sign-up for these studies via the PsychWeb portal.</p>
-<div class="row">
-<div class="col-sm-4">
-<img src="images/dog-tag.png" style="display:block;max-width:150px;max-height:150px;width: auto;height:auto;margin-left: auto;margin-right: auto;padding-top: 10px"/>
-</div>
-<div class="col-sm-8">
-<a href="https://stirlingpsych.eu.qualtrics.com/jfe/form/SV_56CpEQZAC1P4RRs">
-<h2>Perceptions of names.</h2>
-</a>
-<p>We are running a study investigating social perception of names. This study should take approx. 10 minutes. <a href="https://stirlingpsych.eu.qualtrics.com/jfe/form/SV_56CpEQZAC1P4RRs">Click here to participate.</a></p>
-</div>
-</div>
+<div class="row"> <div class="col-sm-4"> <img src="images/dog-tag.png" style="display:block;max-width:150px;max-height:150px;width: auto;height:auto;margin-left: auto;margin-right: auto;padding-top: 10px"/> </div> <div class="col-sm-8"> <a href="https://stirlingpsych.eu.qualtrics.com/jfe/form/SV_56CpEQZAC1P4RRs"> <h2>Perceptions of names.</h2> </a> <p>We are running a study investigating social perception of names. This study should take approx. 10 minutes. <a href="https://stirlingpsych.eu.qualtrics.com/jfe/form/SV_56CpEQZAC1P4RRs">Click here to participate.</a></p> </div> </div>
 <hr>
-<div class="row">
-<div class="col-sm-4">
-<img src="images/tinder.png" style="display:block;max-width:150px;max-height:150px;width: auto;height:auto;margin-left: auto;margin-right: auto;padding-top: 10px"/>
-</div>
-<div class="col-sm-8">
-<a href="https://stirlingpsych.eu.qualtrics.com/jfe/form/SV_bd3EyT8BECqMdcW">
-<h2>Online dating and user mental health.</h2>
-</a>
-<p>Jess De La Mare, as part of her PhD, is investigating how online dating use influences mental health. This study should take approx. 20 minutes.  <a href="https://stirlingpsych.eu.qualtrics.com/jfe/form/SV_bd3EyT8BECqMdcW">Click here to participate.</a></p>
-</div>
-</div>
+<div class="row"> <div class="col-sm-4"> <img src="images/tinder.png" style="display:block;max-width:150px;max-height:150px;width: auto;height:auto;margin-left: auto;margin-right: auto;padding-top: 10px"/> </div> <div class="col-sm-8"> <a href="https://stirlingpsych.eu.qualtrics.com/jfe/form/SV_bd3EyT8BECqMdcW"> <h2>Online dating and user mental health.</h2> </a> <p>Jess De La Mare, as part of her PhD, is investigating how online dating use influences mental health. This study should take approx. 20 minutes.  <a href="https://stirlingpsych.eu.qualtrics.com/jfe/form/SV_bd3EyT8BECqMdcW">Click here to participate.</a></p> </div> </div>
 <hr>
-<div class="row">
-<div class="col-sm-4">
-<img src="images/identity.png" style="display:block;max-width:150px;max-height:150px;width: auto;height:auto;margin-left: auto;margin-right: auto;padding-top: 10px"/>
-</div>
-<div class="col-sm-8">
-<a href="https://stirlingpsych.eu.qualtrics.com/jfe/form/SV_ai31GKxxJIr1IzQ">
-<h2>Study on online dating personal descriptions.</h2>
-</a>
-<p>Jonathan Anderson is investigating how people judge dating profile descriptions as part of his MSc dissertation. This study takes approx. 25 minutes.  <a href="https://stirlingpsych.eu.qualtrics.com/jfe/form/SV_ai31GKxxJIr1IzQ">Click here to participate.</a></p>
-</div>
-</div>
+<div class="row"> <div class="col-sm-4"> <img src="images/identity.png" style="display:block;max-width:150px;max-height:150px;width: auto;height:auto;margin-left: auto;margin-right: auto;padding-top: 10px"/> </div> <div class="col-sm-8"> <a href="https://stirlingpsych.eu.qualtrics.com/jfe/form/SV_ai31GKxxJIr1IzQ"> <h2>Study on online dating personal descriptions.</h2> </a> <p>Jonathan Anderson is investigating how people judge dating profile descriptions as part of his MSc dissertation. This study takes approx. 25 minutes.  <a href="https://stirlingpsych.eu.qualtrics.com/jfe/form/SV_ai31GKxxJIr1IzQ">Click here to participate.</a></p> </div> </div>
 <hr>
-<div class="row">
-<div class="col-sm-4">
-<img src="images/disgusting.png" style="display:block;max-width:150px;max-height:150px;width: auto;height:auto;margin-left: auto;margin-right: auto;padding-top: 10px"/>
-</div>
-<div class="col-sm-8">
-<a href="https://stirlingpsych.eu.qualtrics.com/jfe/form/SV_1HQIHHJIeHy5sA6">
-<h2>The effect of disgust sensitivity on the attraction of different online dating profiles.</h2>
-</a>
-<p>Kyle Buchan is investigating how disgust sensitivity influences attraction and online dating as part of his MSc dissertation. This study takes approx. 25 minutes.  <a href="https://stirlingpsych.eu.qualtrics.com/jfe/form/SV_1HQIHHJIeHy5sA6">Click here to participate.</a></p>
-</div>
-</div>
+<div class="row"> <div class="col-sm-4"> <img src="images/disgusting.png" style="display:block;max-width:150px;max-height:150px;width: auto;height:auto;margin-left: auto;margin-right: auto;padding-top: 10px"/> </div> <div class="col-sm-8"> <a href="https://stirlingpsych.eu.qualtrics.com/jfe/form/SV_1HQIHHJIeHy5sA6"> <h2>The effect of disgust sensitivity on the attraction of different online dating profiles.</h2> </a> <p>Kyle Buchan is investigating how disgust sensitivity influences attraction and online dating as part of his MSc dissertation. This study takes approx. 25 minutes.  <a href="https://stirlingpsych.eu.qualtrics.com/jfe/form/SV_1HQIHHJIeHy5sA6">Click here to participate.</a></p> </div> </div>
 <hr>
-<div class="row">
-<div class="col-sm-4">
-<img src="images/interview.png" style="display:block;max-width:150px;max-height:150px;width: auto;height:auto;margin-left: auto;margin-right: auto;padding-top: 10px"/>
-</div>
-<div class="col-sm-8">
-<a href="https://stirlingpsych.eu.qualtrics.com/jfe/form/SV_7974lqBxjTqyDnE">
-<h2>Decision making in the hiring process.</h2>
-</a>
-<p>As part of her MSc dissertation, Emily Murphy is investigating factors that influence hiring decisions. This study takes approx. 15 minutes.  <a href="https://stirlingpsych.eu.qualtrics.com/jfe/form/SV_7974lqBxjTqyDnE">Click here to participate.</a></p>
-</div>
-</div>
+<div class="row"> <div class="col-sm-4"> <img src="images/interview.png" style="display:block;max-width:150px;max-height:150px;width: auto;height:auto;margin-left: auto;margin-right: auto;padding-top: 10px"/> </div> <div class="col-sm-8"> <a href="https://stirlingpsych.eu.qualtrics.com/jfe/form/SV_7974lqBxjTqyDnE"> <h2>Decision making in the hiring process.</h2> </a> <p>As part of her MSc dissertation, Emily Murphy is investigating factors that influence hiring decisions. This study takes approx. 15 minutes.  <a href="https://stirlingpsych.eu.qualtrics.com/jfe/form/SV_7974lqBxjTqyDnE">Click here to participate.</a></p> </div> </div>
 <hr>
 <p>To participate in research from labs we collaborate with, follow the
 links below:</p>

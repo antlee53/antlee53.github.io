@@ -13,7 +13,7 @@
 
 <title>Anthony J. Lee Research</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -151,11 +151,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -184,8 +188,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -193,16 +197,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -300,7 +297,7 @@ $(document).ready(function () {
 <div class="col-sm-4">
 <h1>Latest News</h1>
 <div class="row">
-<div class="col-sm-2" style="overflow: auto; width:auto; height:500px; border:8px solid yellowgreen;"><b>2023-08-02: Manuscript Accepted!</b><br>Our manuscript titled "The importance of face-shape masculinity for perceptions of male dominance depends on study design" has been accepted for publication in Scientific Reports. This paper is part of a collaboration with researchers at the University of Strathclyde and student first author Chloe Dong.  <a href=https://psyarxiv.com/xyrdt/>Pre-print available here.</a><br><br><b>2023-07-25: ISHE Summer Institute</b><br>The lab attended the ISHE Summer Institute in Ceske Budejovice, Czech. Both Jess and Odette presented a posters on their research.<br><br><b>2023-06-21: Manuscript Accepted!</b><br>Our manuscript titled "No evidence that sociosexual orientation moderates effects of conception probability on women<d5>s preferences for male facial masculinity" has been accepted for publication in Scientific Reports. This paper is part of an international collaborative project including researchers in the UK, Poland, Finland, and Australia.  <a href=https://psyarxiv.com/qmhg2>Pre-print available here.</a><br><br><b>2023-05-29: Manuscript Accepted!</b><br>Ronja Bartlome's MSc dissertation has been accepted for publication in Adaptive Human Behavior and Physiology. The manuscript titled "Facial attractiveness, but not facial masculinity, is used as a cue to paternal involvement in fathers." is the culmination of hard work collecting data from a difficult to reach population. Congratulations Ronja!   <a href= <a href=https://doi.org/10.1101/192054>Accepted manuscript available here</a>.<br><br><b>2023-05-23: Manuscript Accepted!</b><br>A manuscript title "Objectively measured facial traits predict in-person evaluations of facial attractiveness and prosociality in speed-dating partners." was accepted for publication in Evolution and Human Behavior. This work was in collaboration with researchers at The Univeristy of Queensland, Amy Zhao and Brendan Zietsch (and others).<br><br><b>2023-04-25: Manuscript Accepted!</b><br>A manuscript title "Women<d5>s preferences for masculinity in male faces are predicted by material scarcity, but not time or psychological scarcity" was accepted for publication in Evolutionary Psychology. This work was an undergraduate dissertation project by Nikita McGuire.<br><br><b>2023-03-17: Manuscript Accepted!</b><br>Congrats to Jess De La Mare, who's article titled "Assortative preferences for personality and online dating apps: Individuals prefer profiles similar to themselves on agreeableness, openness, and extraversion" has been accepted for publication in Personality and Individual Differences. This work was part of her MSc dissertation project and is her first first author paper!<br><br><b>2023-01-01: Welcome Odette!</b><br>We would like to welcome Odette Lis to the lab, who has started her PhD at Stirling. She will be investigating how structure and stereotypes inform social perception of faces.<br><br><b>2022-12-26: Manuscript Accepted!</b><br>A manuscript titled "The role of valence, dominance, and pitch in perceptions of artificial intelligence (AI) conversational agents voices" has been accepted for publication in Scientific Reports. <a href=https://www.nature.com/articles/s41598-022-27124-8>Open access text available here.</a><br><br><b>2022-10-15: Research Article Accepted!</b><br>A manuscript titled "The role of accurate self-assessments in optimising mate choice" has been accepted for publication in Personality and Social Psychology Bulletin. This work is in collaboration with Kati Harper and others from the University of Queensland. <br></div>
+<div class="col-sm-2" style="overflow: auto; width:auto; height:500px; border:8px solid yellowgreen;"><b>2023-09-17: Manuscript Accepted!</b><br>A manuscript titled " Laughter and ratings of funniness in speed-dating do not support the fitness indicator hypothesis of humour" has been accepted for publication in Evolution and Human Behavior. This work is part of a collaboration with researchers at the University of Queensland.<br><br><b>2023-08-02: Manuscript Accepted!</b><br>Our manuscript titled "The importance of face-shape masculinity for perceptions of male dominance depends on study design" has been accepted for publication in Scientific Reports. This paper is part of a collaboration with researchers at the University of Strathclyde and student first author Chloe Dong.  <a href=https://psyarxiv.com/xyrdt/>Pre-print available here.</a><br><br><b>2023-07-25: ISHE Summer Institute</b><br>The lab attended the ISHE Summer Institute in Ceske Budejovice, Czech. Both Jess and Odette presented a posters on their research.<br><br><b>2023-06-21: Manuscript Accepted!</b><br>Our manuscript titled "No evidence that sociosexual orientation moderates effects of conception probability on womens preferences for male facial masculinity" has been accepted for publication in Scientific Reports. This paper is part of an international collaborative project including researchers in the UK, Poland, Finland, and Australia.  <a href=https://psyarxiv.com/qmhg2>Pre-print available here.</a><br><br><b>2023-05-29: Manuscript Accepted!</b><br>Ronja Bartlome's MSc dissertation has been accepted for publication in Adaptive Human Behavior and Physiology. The manuscript titled "Facial attractiveness, but not facial masculinity, is used as a cue to paternal involvement in fathers." is the culmination of hard work collecting data from a difficult to reach population. Congratulations Ronja!   <a href= <a href=https://doi.org/10.1101/192054>Accepted manuscript available here</a>.<br><br><b>2023-05-23: Manuscript Accepted!</b><br>A manuscript title "Objectively measured facial traits predict in-person evaluations of facial attractiveness and prosociality in speed-dating partners." was accepted for publication in Evolution and Human Behavior. This work was in collaboration with researchers at The Univeristy of Queensland, Amy Zhao and Brendan Zietsch (and others).<br><br><b>2023-04-25: Manuscript Accepted!</b><br>A manuscript title "Women's preferences for masculinity in male faces are predicted by material scarcity, but not time or psychological scarcity" was accepted for publication in Evolutionary Psychology. This work was an undergraduate dissertation project by Nikita McGuire.<br><br><b>2023-03-17: Manuscript Accepted!</b><br>Congrats to Jess De La Mare, who's article titled "Assortative preferences for personality and online dating apps: Individuals prefer profiles similar to themselves on agreeableness, openness, and extraversion" has been accepted for publication in Personality and Individual Differences. This work was part of her MSc dissertation project and is her first first author paper!<br><br><b>2023-01-01: Welcome Odette!</b><br>We would like to welcome Odette Lis to the lab, who has started her PhD at Stirling. She will be investigating how structure and stereotypes inform social perception of faces.<br><br><b>2022-12-26: Manuscript Accepted!</b><br>A manuscript titled "The role of valence, dominance, and pitch in perceptions of artificial intelligence (AI) conversational agents voices" has been accepted for publication in Scientific Reports. <a href=https://www.nature.com/articles/s41598-022-27124-8>Open access text available here.</a><br></div>
 </div>
 </div>
 </div>
@@ -309,49 +306,13 @@ $(document).ready(function () {
 <h1>
 People
 </h1>
-<div class="row">
-<div class="col-sm-4">
-<img src="images/antlee.jpeg" style="display:block;max-width:150px;max-height:150px;width: auto;height:auto;margin-left: auto;margin-right: auto;border-radius: 50%;padding-top: 10px"/>
-</div>
-<div class="col-sm-8">
-<h2>Dr. Anthony J. Lee</h2>
-<p>I am a Lecturer and The University of Stirling and been part of the division since 2019. I completed my PhD at The University of Queensland in 2015 and was a Marie Curie Fellow at The University of Glasgow. I have expertise in many statistical techniques, such as linear mixed effects modelling. Outside the lab, I play for the <a href="https://www.glasgowgiants.scot">Glasgow Giants Australian Rules Football Club</a>.</p>
-<p><a href=mailto:anthony.lee@stir.ac.uk>email: anthony.lee@stir.ac.uk</a> | <a href=https://twitter.com/antlee53 target="_blank">Twitter: @antlee53</a> | <a href=https://www.stir.ac.uk/people/1090003 target="_blank">University Profile</a> | <a href=https://scholar.google.com/citations?user=5MqrYB8AAAAJ&hl=en target="_blank">Google Scholar</a> | <a href=https://orcid.org/0000-0001-8288-3393 target="_blank">ORCID</a> | <a href=http://www.researcherid.com/rid/I-8220-2012 target="_blank">ResearcherID</a> |  </p>
-</div>
-</div>
+<div class="row"> <div class="col-sm-4"> <img src="images/antlee.jpeg" style="display:block;max-width:150px;max-height:150px;width: auto;height:auto;margin-left: auto;margin-right: auto;border-radius: 50%;padding-top: 10px"/> </div> <div class="col-sm-8"> <h2>Dr. Anthony J. Lee</h2> <p>I am a Lecturer and The University of Stirling and been part of the division since 2019. I completed my PhD at The University of Queensland in 2015 and was a Marie Curie Fellow at The University of Glasgow. I have expertise in many statistical techniques, such as linear mixed effects modelling. Outside the lab, I play for the <a href="https://www.glasgowgiants.scot">Glasgow Giants Australian Rules Football Club</a>.</p> <p><a href=mailto:anthony.lee@stir.ac.uk>email: anthony.lee@stir.ac.uk</a> | <a href=https://twitter.com/antlee53 target="_blank">Twitter: @antlee53</a> | <a href=https://www.stir.ac.uk/people/1090003 target="_blank">University Profile</a> | <a href=https://scholar.google.com/citations?user=5MqrYB8AAAAJ&hl=en target="_blank">Google Scholar</a> | <a href=https://orcid.org/0000-0001-8288-3393 target="_blank">ORCID</a> | <a href=http://www.researcherid.com/rid/I-8220-2012 target="_blank">ResearcherID</a> |  </p> </div> </div>
 <hr>
-<div class="row">
-<div class="col-sm-4">
-<img src="images/jess.jpg" style="display:block;max-width:150px;max-height:150px;width: auto;height:auto;margin-left: auto;margin-right: auto;border-radius: 50%;padding-top: 10px"/>
-</div>
-<div class="col-sm-8">
-<h2>Jessica De La Mare</h2>
-<p>Jess is a PhD student in the lab investigating whether the design of online dating platforms influence the mating strategies and psychology of the user.</p>
-<p><a href=mailto:jessica.delamare@stir.ac.uk>email: jessica.delamare@stir.ac.uk</a> |  </p>
-</div>
-</div>
+<div class="row"> <div class="col-sm-4"> <img src="images/jess.jpg" style="display:block;max-width:150px;max-height:150px;width: auto;height:auto;margin-left: auto;margin-right: auto;border-radius: 50%;padding-top: 10px"/> </div> <div class="col-sm-8"> <h2>Jessica De La Mare</h2> <p>Jess is a PhD student in the lab investigating whether the design of online dating platforms influence the mating strategies and psychology of the user.</p> <p><a href=mailto:jessica.delamare@stir.ac.uk>email: jessica.delamare@stir.ac.uk</a> |  </p> </div> </div>
 <hr>
-<div class="row">
-<div class="col-sm-4">
-<img src="images/odette.jpg" style="display:block;max-width:150px;max-height:150px;width: auto;height:auto;margin-left: auto;margin-right: auto;border-radius: 50%;padding-top: 10px"/>
-</div>
-<div class="col-sm-8">
-<h2>Odette Lis</h2>
-<p>Odette is a PhD student investigating the influence of stereotypes and face structure on the social perception of faces.</p>
-<p><a href=mailto:odette.lis@stir.ac.uk>email: odette.lis@stir.ac.uk</a> |  </p>
-</div>
-</div>
+<div class="row"> <div class="col-sm-4"> <img src="images/odette.jpg" style="display:block;max-width:150px;max-height:150px;width: auto;height:auto;margin-left: auto;margin-right: auto;border-radius: 50%;padding-top: 10px"/> </div> <div class="col-sm-8"> <h2>Odette Lis</h2> <p>Odette is a PhD student investigating the influence of stereotypes and face structure on the social perception of faces.</p> <p><a href=mailto:odette.lis@stir.ac.uk>email: odette.lis@stir.ac.uk</a> |  </p> </div> </div>
 <hr>
-<div class="row">
-<div class="col-sm-4">
-<img src="images/default.png" style="display:block;max-width:150px;max-height:150px;width: auto;height:auto;margin-left: auto;margin-right: auto;border-radius: 50%;padding-top: 10px"/>
-</div>
-<div class="col-sm-8">
-<h2>Interested in joining the lab?</h2>
-<p>There are often opportunities to work in the lab, including a three-year PhD degree. If you are interested in finding out more about opportunities to join the lab, please email me.</p>
-<p><a href=mailto:anthony.lee@stir.ac.uk>email: anthony.lee@stir.ac.uk</a> |  </p>
-</div>
-</div>
+<div class="row"> <div class="col-sm-4"> <img src="images/default.png" style="display:block;max-width:150px;max-height:150px;width: auto;height:auto;margin-left: auto;margin-right: auto;border-radius: 50%;padding-top: 10px"/> </div> <div class="col-sm-8"> <h2>Interested in joining the lab?</h2> <p>There are often opportunities to work in the lab, including a three-year PhD degree. If you are interested in finding out more about opportunities to join the lab, please email me.</p> <p><a href=mailto:anthony.lee@stir.ac.uk>email: anthony.lee@stir.ac.uk</a> |  </p> </div> </div>
 <hr>
 </div>
 <hr>
@@ -359,43 +320,23 @@ People
 <h1>
 Research Groups
 </h1>
-<div class="row">
-<div class="col-sm-4">
-<img src="images/1jEzqyfX_400x400.jpeg" style="display:block;max-width:150px;max-height:150px;width: auto;height:auto;margin-left: auto;margin-right: auto;padding-top: 10px"/>
-</div>
-<div class="col-sm-8">
-<a href="https://faceresearch.stir.ac.uk/">
-<h2>Face Research Lab</h2>
-</a>
-<p>The Face Research Lab are researchers at Stirling who are interested in various aspects of human face recognition and perception.</p>
-</div>
-</div>
+<div class="row"> <div class="col-sm-4"> <img src="images/1jEzqyfX_400x400.jpeg" style="display:block;max-width:150px;max-height:150px;width: auto;height:auto;margin-left: auto;margin-right: auto;padding-top: 10px"/> </div> <div class="col-sm-8"> <a href="https://faceresearch.stir.ac.uk/"> <h2>Face Research Lab</h2> </a> <p>The Face Research Lab are researchers at Stirling who are interested in various aspects of human face recognition and perception.</p> </div> </div>
 <hr>
+`
 <div class="row">
 <div class="col-sm-4">
-<img src="images/RIxUIE7y_400x400.jpeg" style="display:block;max-width:150px;max-height:150px;width: auto;height:auto;margin-left: auto;margin-right: auto;padding-top: 10px"/>
+<p><img src="images/RIxUIE7y_400x400.jpeg" style="display:block;max-width:150px;max-height:150px;width: auto;height:auto;margin-left: auto;margin-right: auto;padding-top: 10px"/></p>
 </div>
 <div class="col-sm-8">
 <a href="https://www.stir.ac.uk/about/faculties/natural-sciences/our-research/research-groups/behaviour-and-evolution-research-group/">
-<h2>Behaviour and Evolution Research Group</h2>
+<h2>
+Behaviour and Evolution Research Group
+</h2>
 </a>
-<p>The Behaviour and Evolution Research Group (BERG) focus on understanding the interaction between evolved capacities and actions in humans and other animals in the changing world of the 21st<ca>century.</p>
-</div>
-</div>
-<hr>
-<div class="row">
-<div class="col-sm-4">
-<img src="images/k8WZQSHj_400x400.jpeg" style="display:block;max-width:150px;max-height:150px;width: auto;height:auto;margin-left: auto;margin-right: auto;padding-top: 10px"/>
-</div>
-<div class="col-sm-8">
-<a href="https://www.stir.ac.uk/about/faculties/natural-sciences/our-research/research-groups/cognition-in-complex-environments/">
-<h2>Cognition Research Group</h2>
-</a>
-<p>The Cognition in Complex Environments Research Group conducts research in the areas of cognitive neuroscience, developmental psychology, face research, visual perception, and autism research.</p>
-</div>
-</div>
-<hr>
-</div>
+<p>
+<p>The Behaviour and Evolution Research Group (BERG) focus on
+understanding the interaction between evolved capacities and actions in
+humans and other animals in the changing world of the 21st</p>
 
 </div> <!-- articleBandContent -->
 </div> <!-- pageContent -->
