@@ -1,0 +1,155 @@
+---
+title: "Large Object Creater"
+output: html_document
+---
+
+```{r load.data}
+library(broom)
+library(tidyverse)
+
+#UPDATE FILE BEFORE RUNNING
+data.name <- "data_2025.csv"
+
+data <- read.csv(data.name,stringsAsFactors = FALSE)
+```
+
+
+```{r 8sim Setup,eval = FALSE}
+data <- read.csv(data.name,stringsAsFactors = FALSE) %>%
+  mutate( introvert = introversion2 + introversion5 + introversion7 + introversion8 + introversion10) %>%
+  select(cat.dog,introvert)
+
+m.introvert <- mean(data$introvert,na.rm = TRUE)
+sd.introvert <- sd(data$introvert,na.rm = TRUE)
+
+create_dataset <- function(n){
+  result <- data.frame(group = sample(c("cat","dog"),n,replace = TRUE),
+                       introvert = rnorm(n,mean = 21,sd = 3))
+  return(result)
+}
+
+simulate_test <- function(n){
+  result <- data.frame(group = sample(c("cat","dog"),n,replace = TRUE),
+                       introvert = rnorm(n,mean = m.introvert,sd = sd.introvert))
+  test <- t.test(introvert ~ group, data = result) %>%
+    tidy()
+  return(test$estimate)
+}
+
+output_20 <- replicate(1000,simulate_test(20))
+
+save(output_20,file = "output_20.Rdata")
+
+output_200 <- replicate(1000,simulate_test(200))
+
+save(output_200,file = "output_200.Rdata")
+
+cat.dog_difference <- 2
+
+simulate_test2 <- function(n,mean.diff){
+  result <- data.frame(group = sample(c("cat","dog"),n,replace = TRUE),
+                       introvert = rnorm(n,mean = m.introvert,sd = sd.introvert)) %>%
+    mutate(mean.diff = mean.diff) %>%
+    mutate(introvert = ifelse(group == "cat",introvert - mean.diff/2,introvert + mean.diff/2))
+  test <- t.test(introvert ~ group, data = result) %>%
+    tidy()
+  return(test$p.value)
+}
+
+power.grid <- data.frame(candidate_n = rep(seq(20,200,by = 20),each = 200)) %>%
+  mutate(power = vapply(candidate_n,simulate_test2,FUN.VALUE = 1,mean.diff = cat.dog_difference)) %>%
+  group_by(candidate_n) %>%
+  summarise(power = mean(power < .05))
+
+save(power.grid,file = "power.grid.Rdata")
+```
+
+```{r 9SEM Setup}
+
+
+library(psych)
+library(lm.beta)
+library(lavaan)
+library(tidyverse)
+library(semPlot)
+
+data <- read.csv(data.name,stringsAsFactors = FALSE)
+
+data2.clean <- data %>%
+  mutate(attitude = exercise.attitude.1 + exercise.attitude.2 + exercise.attitude.3 + exercise.attitude.4 + exercise.attitude.5,
+         intention = exercise.intention.1 + exercise.intention.2 + exercise.intention.3 + exercise.intention.4 + exercise.intention.5,
+         control = exercise.control.1 + exercise.control.2 + exercise.control.3,
+         norms = exercise.norms.1 + exercise.norms.2 + exercise.norms.3 + exercise.norms.4 + exercise.norms.5,
+         behaviour = exercise.behaviour.1 + exercise.behaviour.2 + exercise.behaviour.3 + exercise.behaviour.4 + exercise.behaviour.5) %>%
+  dplyr::select(student.no,attitude,intention,control,norms,behaviour) %>%
+  filter(!is.na(attitude)) %>%
+  filter(!is.na(intention)) %>%
+  filter(!is.na(control)) %>%
+  filter(!is.na(norms)) %>%
+  filter(!is.na(behaviour))
+
+sem.formula <- '
+behaviour ~ c*attitude
+behaviour ~ b*intention
+intention ~ a*attitude
+
+indirect := a*b
+direct := c
+total := direct + indirect
+'
+
+med.sem.model <- sem(sem.formula,data2.clean)
+
+save(med.sem.model,file = "med.sem.model.Rdata")
+
+model <- '
+intention ~ attitude + norms + control
+
+norms ~~ attitude
+attitude ~~ control
+control ~~ norms
+
+behaviour ~ intention + control + attitude
+'
+
+sem.model <- sem(model,data = data2.clean)
+
+save(sem.model,file = "sem.model.Rdata")
+
+model2 <- '
+intention ~ attitude + norms + control
+
+norms ~~ attitude
+attitude ~~ control
+control ~~ norms
+
+behaviour ~ intention
+'
+
+sem.model2 <- sem(model2,data = data2.clean)
+
+save(sem.model2,file = "sem.model2.Rdata")
+
+attitude.formula <- '
+  attitude =~ exercise.attitude.1 + exercise.attitude.2 + exercise.attitude.3 + exercise.attitude.4 + exercise.attitude.5
+'
+
+attitude.model <- sem(attitude.formula,data = data)
+
+save(attitude.model,file = "attitude.model.Rdata")
+
+model <- '
+  attitude =~ exercise.attitude.1 + exercise.attitude.2 + exercise.attitude.3 + exercise.attitude.4 + exercise.attitude.5
+  intention =~ exercise.intention.1 + exercise.intention.2 + exercise.intention.3 + exercise.intention.4 + exercise.intention.5
+  control =~ exercise.control.1 + exercise.control.2 + exercise.control.3
+  norms =~ exercise.norms.1 + exercise.norms.2 + exercise.norms.3 + exercise.norms.4 + exercise.norms.5
+  behaviour =~ exercise.behaviour.1 + exercise.behaviour.2 + exercise.behaviour.3 + exercise.behaviour.4 + exercise.behaviour.5
+
+  intention ~ attitude + norms + control
+  behaviour ~ intention + control
+'
+
+sem.model3 <- sem(model,data = data)
+
+save(sem.model3,file = "sem.model3.Rdata")
+```

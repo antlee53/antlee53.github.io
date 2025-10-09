@@ -1,0 +1,656 @@
+ID,localprkrn,Gender,age,Education,Employment,Income,Disability,Howlong,Howoften,Welcoming_Atmosphere,Easy_Access_Without_Car,Competitive_Socal_Balance,Inclusive_Atmosphere,Wheel_Access,Parkrun_Promotes_Diversity,Too_Competitive,Public_Transport_Difficult,Same_Cultural_Beliefs
+1020,South West,Female,42,"A University or College Degree, or higher",Yes,£431-£1500,No,Less than a year ,Every Saturday,5,2,5,5,4,5,1,1,6
+1022,Northern Ireland,Male,59,"A University or College Degree, or higher",Yes,£2601-£4300,No,Less than a year ,At least once a month,4,1,5,4,1,5,1,NA,1
+1033,Scotland,Female,40,"A University or College Degree, or higher",Yes,£1501-£2600,No,1-2 years,At least once a month,4,2,4,4,4,4,2,2,4
+1039,South West,Male,46,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,"More than £12,500",No,3-4 years,At least once a month,3,1,1,3,1,1,2,2,3
+1053,Northern Ireland,Male,50,"A University or College Degree, or higher",Yes,£8301-£12500,No,1-2 years,At least once a month,5,4,5,5,4,3,3,4,5
+1065,Scotland,Female,40,"A University or College Degree, or higher",Yes,Prefer not to say,No,1-2 years,At least once in last 6 months,5,2,5,5,2,3,1,6,3
+1072,South West,Male,44,NA,Yes,£2601-£4300,No,3-4 years,Every Saturday,4,2,4,4,3,4,2,2,6
+1100,South West,Male,50,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£4301-£8300,No,1-2 years,Every Saturday,5,3,5,5,5,4,1,6,6
+1126,South West,Female,61,"HND, HNC, NVQ/SVQ Level 4 or equivalent",No,£431-£1500,Yes,3-4 years,At least once in a year,5,4,5,5,5,5,1,1,3
+1135,Northern Ireland,Female,48,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£431-£1500,No,1-2 years,At least once a month,5,3,4,6,4,5,5,1,6
+1148,South West,Male,79,"A University or College Degree, or higher",No,£2601-£4300,No,3-4 years,,5,1,5,5,4,3,2,3,5
+1149,South West,Female,26,Other,Yes,£1501-£2600,No,1-2 years,Every Saturday,5,3,5,5,5,5,1,1,5
+1150,Scotland,Male,47,"A University or College Degree, or higher",Yes,£2601-£4300,No,3-4 years,Every Saturday,5,1,4,4,5,4,2,3,3
+1157,Scotland,Female,51,"A University or College Degree, or higher",Yes,£1501-£2600,No,3-4 years,At least once a month,4,2,5,5,3,4,2,2,3
+1176,Northern Ireland,Male,42,"A University or College Degree, or higher",Yes,£1501-£2600,No,1-2 years,At least once a month,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1185,London,Male,32,"A University or College Degree, or higher",Yes,£4301-£8300,No,Less than a year ,Every Saturday,5,5,5,5,5,4,2,1,3
+1195,Scotland,Male,16,Other,No,NA,No,1-2 years,,5,3,4,5,4,4,2,2,4
+1200,Scotland,Female,36,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£2601-£4300,NA,1-2 years,Every Saturday,5,5,5,5,5,5,NA,1,1
+1204,South West,Male,39,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£4301-£8300,No,3-4 years,At least once in last 6 months,5,2,4,5,4,4,2,4,3
+1206,London,Female,49,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,Every Saturday,4,4,4,5,4,4,2,2,4
+1209,South West,Female,31,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,Prefer not to say,No,Less than a year ,At least once in last 6 months,5,2,5,4,5,4,1,1,5
+1253,Scotland,Female,49,"A University or College Degree, or higher",Yes,£431-£1500,No,1-2 years,At least once a month,4,2,4,3,4,3,2,2,2
+1258,Northern Ireland,Female,46,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,,5,2,4,5,4,3,3,2,3
+1261,NA,NA,NA,Other,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1264,Northern Ireland,Male,49,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£4301-£8300,No,3-4 years,At least once a month,5,3,4,5,4,4,4,6,5
+1269,Northern Ireland,Female,43,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£4301-£8300,No,Less than a year ,,5,5,5,5,5,5,1,1,6
+1270,London,Male,30,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,At least once a month,5,5,4,5,5,6,1,1,3
+1279,South West,Male,34,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£1501-£2600,No,Less than a year ,At least once a month,5,4,5,5,3,5,1,1,5
+1286,Northern Ireland,Male,47,"A University or College Degree, or higher",Yes,"More than £12,500",No,3-4 years,,5,4,4,5,3,5,3,2,3
+1295,London,Female,34,"A University or College Degree, or higher",Yes,£2601-£4300,No,3-4 years,Every Saturday,4,4,4,5,4,4,2,2,5
+1296,South West,Male,58,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£2601-£4300,No,5 years or more ,Every Saturday,5,5,5,5,4,4,1,1,4
+1301,Scotland,Male,33,"A University or College Degree, or higher",Yes,"More than £12,500",No,Less than a year ,Every Saturday,5,2,4,4,4,4,2,2,6
+1307,London,Male,45,"A University or College Degree, or higher",Yes,"More than £12,500",No,Less than a year ,Every Saturday,5,5,5,5,5,5,1,1,5
+1311,Scotland,Male,52,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£1501-£2600,No,Less than a year ,,5,5,5,5,5,5,2,1,5
+1365,South West,Male,79,"A University or College Degree, or higher",No,£2601-£4300,No,3-4 years,Every Saturday,5,1,5,5,5,5,1,6,5
+1415,South West,Female,34,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£2601-£4300,No,Less than a year ,Every Saturday,5,1,5,5,5,5,1,1,5
+1421,South West,Female,41,"A University or College Degree, or higher",Yes,"More than £12,500",No,Less than a year ,Every Saturday,5,5,5,5,5,5,1,1,1
+1445,Northern Ireland,Male,37,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£1501-£2600,No,Less than a year ,,5,4,4,5,4,4,2,2,6
+1460,Scotland,Female,45,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£431-£1500,No,1-2 years,At least once in last 6 months,5,3,4,5,5,3,2,2,3
+1493,London,Female,29,"A University or College Degree, or higher",Yes,£2601-£4300,No,Less than a year ,Every Saturday,4,5,4,4,4,4,NA,1,5
+1510,South West,Female,34,"A University or College Degree, or higher",No,Prefer not to say,No,Less than a year ,At least once a month,5,4,5,5,6,6,2,1,6
+1543,South West,Male,45,"A University or College Degree, or higher",Yes,£1501-£2600,No,3-4 years,Every Saturday,5,2,5,5,4,3,1,6,5
+1544,South West,Female,23,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,At least once in a year,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1554,Northern Ireland,Female,33,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£431-£1500,No,1-2 years,,5,4,4,5,5,5,3,3,3
+1559,Northern Ireland,Female,NA,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,Every Saturday,5,5,5,5,5,5,5,6,6
+1560,Northern Ireland,Female,55,"A University or College Degree, or higher",Yes,Prefer not to say,No,Less than a year ,At least once a month,4,5,4,3,4,5,2,2,3
+1581,London,Male,40,NA,Yes,£431-£1500,No,3-4 years,,5,5,5,5,5,5,1,1,6
+1598,London,Female,36,"HND, HNC, NVQ/SVQ Level 4 or equivalent",No,Less than £430,No,1-2 years,,5,3,5,3,4,3,3,3,3
+1600,South West,Male,45,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£2601-£4300,No,3-4 years,At least once in last 6 months,5,2,5,5,5,4,1,1,5
+1606,London,Prefer not to say ,30,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,Every Saturday,5,5,5,5,5,4,2,2,4
+1626,South West,Female,42,"A University or College Degree, or higher",Yes,"More than £12,500",No,1-2 years,At least once a month,5,5,5,5,5,5,1,1,5
+1639,NA,Male,30,"A University or College Degree, or higher",Yes,£1501-£2600,No,NA,NA,4,4,4,4,4,4,3,1,3
+1641,South West,Female,57,"A University or College Degree, or higher",No,£431-£1500,No,3-4 years,At least once in last 6 months,5,1,5,5,6,3,1,1,4
+1642,Northern Ireland,Male,48,"A University or College Degree, or higher",Yes,"More than £12,500",No,3-4 years,,5,1,3,5,5,3,1,5,3
+1650,South West,Female,40,"A University or College Degree, or higher",Yes,£431-£1500,No,1-2 years,Every Saturday,5,1,5,5,4,5,1,1,6
+1661,Scotland,Male,45,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,Every Saturday,5,2,5,5,5,5,1,1,5
+1682,South West,Female,53,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£431-£1500,No,3-4 years,Every Saturday,5,2,4,5,5,4,2,2,4
+1685,South West,Male,64,Other,No,£1501-£2600,No,1-2 years,Every Saturday,3,5,3,4,4,5,4,6,3
+1698,London,Male,29,"A University or College Degree, or higher",Yes,£4301-£8300,No,Less than a year ,Every Saturday,4,4,4,4,5,5,1,1,2
+1716,London,Male,33,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,At least once a month,4,5,4,5,4,6,1,1,6
+1736,South West,Male,40,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£431-£1500,No,1-2 years,Every Saturday,5,4,5,5,5,4,1,3,5
+1743,Northern Ireland,Female,37,"A University or College Degree, or higher",Yes,"More than £12,500",No,Less than a year ,Every Saturday,5,4,5,5,4,5,1,1,5
+1744,South West,Female,25,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,Every Saturday,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1798,Northern Ireland,Female,39,Other,Yes,£1501-£2600,No,Less than a year ,NA,4,2,4,5,2,4,NA,3,3
+1806,Scotland,Female,42,"A University or College Degree, or higher",Yes,£8301-£12500,No,Less than a year ,Every Saturday,5,2,4,5,3,3,2,2,3
+1820,Scotland,Male,51,"A University or College Degree, or higher",Yes,£8301-£12500,No,Less than a year ,At least once in last 6 months,5,2,4,5,3,4,1,1,5
+1839,South West,Female,48,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",No,Prefer not to say,Yes,1-2 years,Every Saturday,5,6,5,5,5,5,3,3,6
+1841,South West,Male,42,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,Prefer not to say,No,3-4 years,Every Saturday,5,3,4,5,4,4,1,2,6
+1855,Northern Ireland,Male,NA,Other,Yes,£431-£1500,No,3-4 years,At least once a month,2,6,4,5,5,5,1,6,5
+1887,Northern Ireland,Male,39,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,At least once a month,5,2,4,4,4,4,2,2,5
+1896,South West,Female,22,"A University or College Degree, or higher",No,Less than £430,No,Less than a year ,At least once a month,NA,3,5,5,5,5,6,6,6
+1899,London,Female,29,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,At least once in last 6 months,5,5,5,5,5,3,1,1,5
+1906,Scotland,Female,45,"A University or College Degree, or higher",Yes,£2601-£4300,No,Less than a year ,At least once a month,5,2,4,4,3,2,2,3,6
+1930,Scotland,Female,28,"A University or College Degree, or higher",Yes,£431-£1500,No,1-2 years,At least once in last 6 months,5,3,5,5,3,5,1,1,6
+1945,London,Female,36,"A University or College Degree, or higher",Yes,£2601-£4300,No,Less than a year ,Every Saturday,4,5,5,5,5,3,2,1,6
+1958,NA,Male,34,"A University or College Degree, or higher",Yes,"More than £12,500",No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1992,London,Male,31,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,,5,5,5,5,5,4,2,1,1
+1993,London,Male,32,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£1501-£2600,No,3-4 years,,5,4,4,5,4,4,4,1,1
+2014,South West,Female,38,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£1501-£2600,No,3-4 years,Every Saturday,5,2,5,4,4,3,2,2,3
+2032,South West,Female,28,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,Every Saturday,5,2,5,4,3,4,3,6,6
+2041,NA,Male,35,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£431-£1500,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2044,Northern Ireland,Male,54,"HND, HNC, NVQ/SVQ Level 4 or equivalent",No,£1501-£2600,No,3-4 years,At least once a month,3,4,3,3,1,3,5,1,5
+2048,Scotland,Female,41,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£8301-£12500,No,Less than a year ,At least once a month,5,2,4,4,4,4,3,3,3
+2053,South West,Female,43,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,"More than £12,500",No,Less than a year ,Every Saturday,5,1,5,5,5,5,1,6,6
+2058,South West,Male,44,"A University or College Degree, or higher",Yes,£2601-£4300,No,5 years or more ,At least once a month,5,4,4,5,4,4,2,6,6
+2059,London,Female,50,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£2601-£4300,No,Less than a year ,Every Saturday,5,5,5,5,5,NA,3,1,5
+2109,South West,Female,41,"A University or College Degree, or higher",Yes,"More than £12,500",No,Less than a year ,Every Saturday,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2119,London,Female,43,"A University or College Degree, or higher",Yes,£2601-£4300,No,Less than a year ,Every Saturday,5,5,4,5,3,3,1,1,6
+2121,Scotland,Female,53,"A University or College Degree, or higher",Yes,£431-£1500,No,1-2 years,At least once in last 6 months,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2150,Scotland,Male,41,"A University or College Degree, or higher",Yes,£1501-£2600,No,3-4 years,At least once a month,5,4,4,3,4,4,3,2,3
+2152,South West,Male,40,"A University or College Degree, or higher",Yes,"More than £12,500",No,5 years or more ,Every Saturday,5,4,5,5,3,5,3,1,5
+2166,South West,Male,46,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£2601-£4300,No,3-4 years,At least once in last 6 months,5,3,5,5,4,5,3,5,5
+2170,NA,Female,25,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",No,Prefer not to say,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2171,London,Female,38,"A University or College Degree, or higher",Yes,£4301-£8300,No,1-2 years,At least once a month,5,5,5,5,4,3,1,3,5
+2183,Scotland,Female,41,"A University or College Degree, or higher",Yes,£2601-£4300,No,Less than a year ,At least once a month,4,1,4,2,4,5,5,5,5
+2207,NA,Male,46,"A University or College Degree, or higher",Yes,£2601-£4300,No,3-4 years,At least once in last 6 months,5,1,5,5,5,5,2,1,6
+2233,South West,Male,47,"A University or College Degree, or higher",Yes,£4301-£8300,No,3-4 years,At least once a month,5,1,4,5,4,4,2,1,6
+2236,NA,Male,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2237,Scotland,Male,58,"A University or College Degree, or higher",Yes,£4301-£8300,No,Less than a year ,Every Saturday,4,1,4,3,4,4,2,1,1
+2245,London,Male,20,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£431-£1500,No,1-2 years,Every Saturday,1,1,1,1,1,1,1,NA,NA
+2247,London,Male,23,"A University or College Degree, or higher",Yes,£431-£1500,No,Less than a year ,Every Saturday,5,4,4,4,4,2,1,1,5
+2262,Scotland,Female,48,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£8301-£12500,No,Less than a year ,At least once a month,5,1,5,5,5,5,1,3,6
+2281,South West,Male,52,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,"More than £12,500",No,5 years or more ,Every Saturday,5,5,5,5,5,5,1,1,3
+2320,London,Female,37,"A University or College Degree, or higher",Yes,£4301-£8300,No,1-2 years,At least once a month,5,3,5,5,3,4,1,6,6
+2378,London,Female,33,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,Every Saturday,5,5,4,5,5,5,1,1,6
+2381,London,Male,37,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,,5,5,5,5,2,5,1,1,6
+2382,South West,Female,21,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",No,Less than £430,No,Less than a year ,At least once a month,5,2,4,5,3,3,2,1,3
+2399,NA,Female,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2404,Scotland,Female,45,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£431-£1500,No,Less than a year ,Every Saturday,5,3,4,5,6,4,3,6,6
+2405,South West,Male,41,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£2601-£4300,No,5 years or more ,At least once in a year,3,3,2,3,1,3,2,1,3
+2411,South West,Male,38,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£1501-£2600,No,5 years or more ,Every Saturday,5,5,5,5,5,5,2,2,5
+2416,Scotland,Female,23,"A University or College Degree, or higher",No,Less than £430,No,Less than a year ,,5,2,5,5,5,4,2,2,5
+2418,London,Male,41,"A University or College Degree, or higher",Yes,£8301-£12500,No,Less than a year ,At least once a month,5,5,5,5,5,5,2,1,5
+2424,London,Male,63,"A University or College Degree, or higher",Yes,£2601-£4300,No,3-4 years,Every Saturday,5,3,5,5,5,4,1,1,5
+2432,South West,Female,34,"A University or College Degree, or higher",Yes,£431-£1500,No,3-4 years,At least once in last 6 months,5,3,5,5,4,5,1,3,3
+2435,South West,Male,35,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,Prefer not to say,No,Less than a year ,At least once in last 6 months,5,2,3,5,5,4,2,6,5
+2501,South West,Male,49,"A University or College Degree, or higher",Yes,"More than £12,500",No,1-2 years,At least once a month,5,5,5,5,5,5,1,1,5
+2514,South West,Male,47,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£2601-£4300,No,3-4 years,At least once a month,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2530,London,Female,46,"HND, HNC, NVQ/SVQ Level 4 or equivalent",NA,£2601-£4300,Yes,1-2 years,At least once in a year,5,5,5,6,6,5,4,1,5
+2537,South West,Female,42,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£1501-£2600,No,1-2 years,Every Saturday,5,5,5,5,5,5,3,1,5
+2543,Scotland,Male,32,"A University or College Degree, or higher",Yes,£1501-£2600,No,1-2 years,At least once a month,5,5,5,5,4,5,2,2,6
+2574,Northern Ireland,Female,42,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,Prefer not to say,No,Less than a year ,At least once a month,5,3,5,5,3,5,1,1,3
+2589,South West,Male,61,"A University or College Degree, or higher",No,£4301-£8300,No,3-4 years,Every Saturday,5,4,6,6,6,6,1,1,5
+2591,Scotland,Male,29,"A University or College Degree, or higher",Yes,£1501-£2600,No,3-4 years,At least once a month,5,2,4,5,5,3,1,3,6
+2599,London,Male,61,"A University or College Degree, or higher",Yes,Prefer not to say,No,Less than a year ,,5,5,5,5,5,5,6,6,6
+2618,Northern Ireland,Male,35,Other,Yes,£2601-£4300,No,Less than a year ,,5,2,5,5,5,5,6,6,6
+2641,NA,Female,17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2643,South West,Male,41,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£2601-£4300,No,3-4 years,At least once a month,5,1,4,5,3,5,1,1,6
+2684,South West,Male,44,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,Every Saturday,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2685,Northern Ireland,Female,40,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£431-£1500,No,Less than a year ,At least once a month,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2688,South West,Female,37,"A University or College Degree, or higher",Yes,£431-£1500,No,Less than a year ,At least once a month,4,1,3,4,4,4,3,2,5
+2702,Northern Ireland,NA,NA,NA,NA,NA,NA,Less than a year ,Every Saturday,4,2,4,5,4,5,2,2,5
+2725,London,Male,53,"A University or College Degree, or higher",Yes,"More than £12,500",No,3-4 years,,5,3,4,5,4,5,2,2,3
+2747,Scotland,Female,56,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£431-£1500,No,1-2 years,Every Saturday,5,4,4,5,5,5,1,6,6
+2764,London,Female,44,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,Every Saturday,4,5,4,3,4,6,2,1,3
+2790,South West,Female,NA,Prefer not to say,No,Prefer not to say,No,1-2 years,Every Saturday,5,4,2,5,5,5,1,1,3
+2803,South West,Male,52,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£2601-£4300,No,3-4 years,Every Saturday,5,3,4,5,2,3,2,3,5
+2824,London,Male,44,"A University or College Degree, or higher",Yes,£1501-£2600,Yes,1-2 years,At least once a month,4,5,4,4,5,2,3,2,6
+2839,Northern Ireland,NA,53,"A University or College Degree, or higher",No,£2601-£4300,Yes,Less than a year ,Every Saturday,5,5,5,5,5,5,1,1,6
+2840,London,Male,61,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",No,Prefer not to say,No,3-4 years,Every Saturday,5,2,5,5,5,2,2,1,5
+2861,Northern Ireland,Male,40,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,"More than £12,500",No,3-4 years,Every Saturday,5,4,5,5,5,5,5,2,1
+2896,South West,Female,47,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£4301-£8300,NA,Less than a year ,At least once a month,5,3,5,5,5,5,1,1,4
+2905,South West,Male,48,"A University or College Degree, or higher",Yes,£4301-£8300,No,3-4 years,Every Saturday,5,4,5,5,5,4,1,2,3
+2909,NA,Female,35,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£431-£1500,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2912,South West,Male,51,"A University or College Degree, or higher",Yes,£8301-£12500,No,5 years or more ,Every Saturday,5,6,5,5,5,4,2,6,6
+2923,London,Male,29,"A University or College Degree, or higher",No,£431-£1500,No,3-4 years,At least once in last 6 months,4,3,3,5,5,3,2,2,2
+2963,Scotland,Male,28,"A University or College Degree, or higher",Yes,£1501-£2600,No,1-2 years,Every Saturday,5,4,4,5,4,4,1,1,4
+2990,South West,Male,59,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£431-£1500,NA,5 years or more ,Every Saturday,5,5,5,5,5,5,2,1,6
+3019,Scotland,Male,63,"A University or College Degree, or higher",No,£1501-£2600,No,Less than a year ,,5,1,5,5,5,3,2,1,5
+3023,South West,Male,52,"A University or College Degree, or higher",Yes,£2601-£4300,No,3-4 years,At least once a month,5,2,5,5,5,4,4,1,5
+3026,Scotland,Female,45,"HND, HNC, NVQ/SVQ Level 4 or equivalent",No,Less than £430,No,Less than a year ,At least once a month,5,3,4,5,4,4,1,6,6
+3081,South West,Male,34,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",No,Less than £430,No,Less than a year ,At least once in last 6 months,5,1,5,5,5,5,1,6,6
+3093,Northern Ireland,Female,51,"A University or College Degree, or higher",Yes,£431-£1500,No,Less than a year ,,5,1,5,5,5,5,NA,3,4
+3110,South West,Female,51,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,NA,5,6,5,4,5,4,1,1,5
+3142,Scotland,Female,55,"A University or College Degree, or higher",Yes,£431-£1500,No,Less than a year ,At least once a month,5,3,4,5,4,4,3,6,5
+3169,South West,Male,44,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£1501-£2600,No,3-4 years,Every Saturday,5,5,5,5,5,5,2,2,5
+3171,NA,Male,21,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",NA,Less than £430,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3172,South West,Male,35,"A University or College Degree, or higher",Yes,£4301-£8300,No,Less than a year ,Every Saturday,5,5,5,5,3,5,1,1,5
+3180,London,Female,45,"A University or College Degree, or higher",No,Less than £430,No,1-2 years,Every Saturday,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3198,Northern Ireland,Female,44,"A University or College Degree, or higher",Yes,"More than £12,500",No,Less than a year ,,5,2,5,5,5,5,1,1,5
+3204,London,Female,30,"A University or College Degree, or higher",Yes,£2601-£4300,No,Less than a year ,Every Saturday,5,5,5,5,6,5,NA,4,5
+3206,South West,Male,35,"A University or College Degree, or higher",Yes,Prefer not to say,No,3-4 years,At least once in a year,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3221,London,Female,25,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,At least once a month,4,5,4,4,4,3,3,1,6
+3228,South West,Male,56,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£1501-£2600,No,Less than a year ,Every Saturday,5,5,5,5,3,5,2,5,6
+3236,London,Male,49,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£431-£1500,No,3-4 years,At least once a month,4,5,4,5,5,2,2,1,3
+3273,South West,Male,31,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£1501-£2600,No,1-2 years,At least once a month,5,5,5,5,5,5,2,2,6
+3282,London,Female,16,"A University or College Degree, or higher",Yes,£2601-£4300,No,Less than a year ,Every Saturday,5,5,5,3,5,3,4,1,3
+3286,Scotland,Male,39,"A University or College Degree, or higher",Yes,£4301-£8300,No,Less than a year ,At least once a month,5,2,5,5,3,4,2,2,5
+3290,South West,Male,45,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£2601-£4300,No,1-2 years,Every Saturday,5,4,5,5,4,4,1,1,1
+3298,Scotland,Male,42,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,Prefer not to say,No,Less than a year ,At least once a month,5,3,5,5,5,5,3,3,3
+3311,London,Female,36,"A University or College Degree, or higher",Yes,£4301-£8300,No,1-2 years,At least once a month,5,5,5,5,4,4,2,1,5
+3337,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3355,Northern Ireland,Female,43,"A University or College Degree, or higher",Yes,£1501-£2600,No,1-2 years,Every Saturday,5,2,5,5,5,5,2,2,1
+3367,Northern Ireland,Female,39,"A University or College Degree, or higher",Yes,£2601-£4300,No,Less than a year ,Every Saturday,5,4,5,5,5,5,1,1,3
+3371,Northern Ireland,Male,43,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£1501-£2600,No,3-4 years,At least once a month,1,2,4,1,1,4,5,5,2
+3372,London,Female,34,"A University or College Degree, or higher",Yes,£2601-£4300,No,3-4 years,Every Saturday,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3374,Scotland,Female,53,"A University or College Degree, or higher",Yes,£8301-£12500,No,3-4 years,Every Saturday,5,2,4,3,4,3,2,2,6
+3377,South West,Female,36,"A University or College Degree, or higher",Yes,"More than £12,500",No,1-2 years,At least once a month,5,2,5,5,5,5,2,1,3
+3402,Scotland,Male,50,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£1501-£2600,No,1-2 years,At least once a month,5,5,5,5,5,5,3,2,3
+3406,Scotland,Male,NA,"A University or College Degree, or higher",Yes,£2601-£4300,No,3-4 years,Every Saturday,5,5,5,5,5,5,2,1,5
+3418,South West,Female,27,"A University or College Degree, or higher",Yes,£431-£1500,No,Less than a year ,Every Saturday,5,3,6,5,5,6,4,3,3
+3438,South West,Female,41,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£431-£1500,Yes,Less than a year ,Every Saturday,5,5,5,4,5,3,1,1,3
+3440,Northern Ireland,Female,48,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,"More than £12,500",Yes,1-2 years,Every Saturday,4,1,4,5,3,2,2,3,3
+3463,Northern Ireland,Female,46,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,Every Saturday,5,1,5,5,4,4,1,3,5
+3469,South West,Male,35,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,At least once a month,1,3,2,2,2,2,5,2,1
+3478,Scotland,Male,66,"HND, HNC, NVQ/SVQ Level 4 or equivalent",No,£1501-£2600,No,3-4 years,Every Saturday,5,2,5,4,4,3,2,1,6
+3483,South West,Female,43,Other,Yes,£431-£1500,No,1-2 years,At least once in last 6 months,4,1,4,4,3,4,3,4,3
+3485,Scotland,Female,26,"A University or College Degree, or higher",No,Prefer not to say,No,Less than a year ,At least once a month,5,3,5,5,4,4,2,4,6
+3502,London,Male,34,"A University or College Degree, or higher",Yes,£4301-£8300,No,Less than a year ,Every Saturday,5,5,5,4,5,4,1,1,5
+3508,South West,Female,58,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£431-£1500,No,Less than a year ,Every Saturday,5,4,3,5,4,5,2,3,4
+3511,London,Female,27,"A University or College Degree, or higher",Yes,£431-£1500,No,1-2 years,Every Saturday,5,5,4,4,4,2,2,2,3
+3537,South West,Female,56,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£431-£1500,No,Less than a year ,At least once a month,5,3,5,5,5,3,2,3,6
+3543,South West,Female,24,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,Every Saturday,5,2,5,5,5,5,2,1,5
+3606,London,Female,37,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£1501-£2600,No,3-4 years,Every Saturday,4,5,4,5,5,4,2,3,6
+3612,South West,Male,63,"A University or College Degree, or higher",No,£1501-£2600,No,1-2 years,Every Saturday,4,1,4,5,4,2,3,4,4
+3617,Northern Ireland,Male,33,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£1501-£2600,No,1-2 years,Every Saturday,5,5,5,5,5,5,1,1,4
+3640,South West,Male,65,"A University or College Degree, or higher",Yes,£8301-£12500,No,1-2 years,Every Saturday,5,2,5,4,3,5,3,3,5
+3659,South West,Female,31,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£431-£1500,No,Less than a year ,Every Saturday,5,4,5,5,5,4,2,2,3
+3679,South West,Female,58,Other,Yes,£1501-£2600,No,Less than a year ,Every Saturday,5,1,5,5,5,3,1,1,5
+3684,London,Male,31,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,,5,5,5,4,4,4,2,1,4
+3693,Scotland,Female,56,"HND, HNC, NVQ/SVQ Level 4 or equivalent",No,£1501-£2600,No,1-2 years,Every Saturday,5,4,5,5,5,5,2,6,6
+3704,South West,Female,23,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£1501-£2600,No,1-2 years,At least once a month,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3718,Scotland,Male,38,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£431-£1500,No,Less than a year ,Every Saturday,5,2,5,5,5,5,2,2,2
+3736,South West,Female,31,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,Every Saturday,5,5,5,5,5,5,1,1,3
+3739,Northern Ireland,Male,22,"A University or College Degree, or higher",Yes,Less than £430,No,Less than a year ,,5,3,5,5,5,5,5,1,5
+3740,Scotland,Male,55,Other,Yes,Prefer not to say,No,Less than a year ,At least once in last 6 months,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3745,South West,Female,44,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£2601-£4300,NA,3-4 years,Every Saturday,5,4,5,5,5,5,2,2,6
+3775,NA,Male,57,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£1501-£2600,No,NA,NA,5,6,5,5,4,5,1,6,6
+3818,South West,Male,61,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",No,£431-£1500,No,1-2 years,At least once a month,5,2,5,5,4,4,1,2,4
+3824,Northern Ireland,Female,36,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,,5,3,5,5,5,3,NA,2,3
+3827,Northern Ireland,Female,46,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,At least once in last 6 months,5,4,5,4,4,4,3,1,4
+3828,South West,Female,47,"A University or College Degree, or higher",Yes,£4301-£8300,No,1-2 years,At least once in last 6 months,5,3,4,5,5,5,1,2,5
+3839,London,Male,54,"A University or College Degree, or higher",Yes,Prefer not to say,No,3-4 years,At least once a month,4,4,4,4,4,4,1,2,2
+3849,South West,Female,43,"A University or College Degree, or higher",Yes,£431-£1500,No,Less than a year ,Every Saturday,5,2,4,4,4,3,2,6,6
+3885,Scotland,Male,41,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£2601-£4300,No,Less than a year ,At least once a month,5,2,6,5,5,5,3,3,3
+3889,Scotland,Male,16,NA,No,NA,No,3-4 years,,5,2,5,5,5,5,1,1,5
+3906,Scotland,Female,23,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",No,£431-£1500,Yes,1-2 years,At least once a month,4,6,5,5,4,5,5,3,3
+3919,Scotland,Male,33,"A University or College Degree, or higher",Yes,£1501-£2600,No,3-4 years,At least once in last 6 months,5,2,5,5,5,3,1,1,3
+3920,NA,Female,41,"A University or College Degree, or higher",Yes,£2601-£4300,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3924,Northern Ireland,Male,50,"A University or College Degree, or higher",Yes,£8301-£12500,No,Less than a year ,At least once a month,5,4,5,5,4,5,2,2,5
+3931,NA,Female,52,Other,Yes,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3933,South West,Male,33,"A University or College Degree, or higher",Yes,£2601-£4300,No,Less than a year ,At least once a month,4,2,4,4,3,3,2,2,6
+3938,London,Male,35,"A University or College Degree, or higher",Yes,£4301-£8300,Yes,Less than a year ,Every Saturday,4,4,5,4,4,4,2,NA,NA
+3939,South West,Female,53,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£1501-£2600,No,3-4 years,At least once a month,4,5,2,3,4,4,4,1,3
+3998,South West,Female,50,NA,No,Prefer not to say,No,3-4 years,Every Saturday,5,5,5,5,5,5,1,6,6
+4022,Scotland,Female,47,"A University or College Degree, or higher",No,Prefer not to say,No,3-4 years,At least once in a year,1,3,1,1,1,1,3,2,3
+4029,NA,NA,NA,NA,NA,NA,NA,NA,At least once a month,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4033,Scotland,Female,47,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£1501-£2600,No,1-2 years,Every Saturday,5,3,5,5,4,4,1,3,2
+4034,South West,Male,55,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£431-£1500,Yes,1-2 years,Every Saturday,4,2,5,5,5,5,1,1,4
+4054,NA,Female,34,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",NA,NA,NA,Less than a year ,,5,1,3,5,3,3,1,NA,NA
+4057,Northern Ireland,Male,48,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£1501-£2600,No,1-2 years,,5,4,5,5,5,5,3,1,5
+4060,Scotland,Female,50,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,At least once in last 6 months,5,2,4,5,5,3,5,3,3
+4075,Northern Ireland,Female,33,"A University or College Degree, or higher",Yes,"More than £12,500",No,Less than a year ,Every Saturday,5,1,5,5,5,5,1,6,6
+4083,South West,Female,40,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£431-£1500,No,3-4 years,At least once in last 6 months,5,2,4,4,4,4,2,2,6
+4093,South West,Male,31,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,At least once in last 6 months,5,5,5,5,4,3,2,4,5
+4098,London,Female,29,"A University or College Degree, or higher",Yes,£431-£1500,No,Less than a year ,At least once a month,5,5,5,5,5,6,2,1,6
+4105,Scotland,Male,56,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,At least once in last 6 months,5,6,5,5,5,5,1,1,5
+4126,South West,Female,28,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£431-£1500,No,1-2 years,Every Saturday,4,3,4,4,4,3,1,6,4
+4127,South West,Female,43,"A University or College Degree, or higher",Yes,Less than £430,No,Less than a year ,At least once a month,5,1,4,5,5,4,2,5,5
+4158,Scotland,Female,45,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,At least once a month,5,1,5,5,4,3,2,2,3
+4161,Scotland,Male,38,"A University or College Degree, or higher",Yes,£1501-£2600,No,1-2 years,At least once a month,5,2,5,5,5,3,1,1,1
+4176,South West,Male,54,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£4301-£8300,No,3-4 years,At least once a month,5,2,5,5,4,5,2,1,6
+4203,London,Male,29,"A University or College Degree, or higher",Yes,Prefer not to say,Yes,Less than a year ,Every Saturday,4,5,4,4,5,4,1,1,6
+4214,South West,Male,61,"A University or College Degree, or higher",Yes,£4301-£8300,No,Less than a year ,At least once a month,NA,2,5,5,4,4,2,2,5
+4231,Scotland,Male,46,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£8301-£12500,No,Less than a year ,At least once in last 6 months,5,2,5,5,5,5,2,6,6
+4277,Scotland,Male,53,"A University or College Degree, or higher",Yes,£4301-£8300,No,1-2 years,Every Saturday,5,6,5,5,4,3,1,6,5
+4287,South West,Male,42,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,At least once a month,5,3,5,5,5,5,1,1,4
+4311,London,Male,30,"A University or College Degree, or higher",Yes,Prefer not to say,No,1-2 years,Every Saturday,4,5,4,5,5,3,2,1,6
+4313,South West,Female,43,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£1501-£2600,No,Less than a year ,NA,4,6,4,5,4,3,4,6,6
+4375,South West,Female,52,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,At least once a month,5,1,5,4,5,5,1,3,4
+4388,Scotland,Female,28,"A University or College Degree, or higher",Yes,£1501-£2600,No,5 years or more ,Every Saturday,5,3,5,5,5,5,1,1,6
+4405,South West,Male,26,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,Every Saturday,5,4,4,5,4,5,1,1,5
+4433,South West,Male,32,"A University or College Degree, or higher",Yes,£2601-£4300,No,Less than a year ,,5,3,5,5,5,3,2,2,4
+4455,Northern Ireland,Female,44,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£431-£1500,No,Less than a year ,Every Saturday,5,1,4,4,4,4,1,1,3
+4458,South West,Female,40,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£1501-£2600,No,3-4 years,At least once a month,5,3,5,5,5,5,2,1,5
+4465,NA,Female,32,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,Less than £430,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4471,London,Male,34,"A University or College Degree, or higher",No,Less than £430,Yes,Less than a year ,,5,5,5,4,5,4,2,2,4
+4473,Scotland,Female,24,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£431-£1500,No,1-2 years,At least once a month,4,2,4,5,3,3,1,4,6
+4483,South West,Female,42,"A University or College Degree, or higher",Yes,Less than £430,No,5 years or more ,At least once in last 6 months,4,2,4,5,4,4,4,1,6
+4485,Northern Ireland,Female,34,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,Every Saturday,5,3,5,5,5,5,1,3,3
+4486,South West,Female,32,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,At least once in a year,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4502,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4506,South West,Female,44,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£1501-£2600,No,3-4 years,At least once in last 6 months,5,3,3,5,2,4,2,1,3
+4514,London,Female,30,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,Every Saturday,5,5,4,4,4,5,2,2,5
+4538,London,Female,34,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,Every Saturday,5,3,5,5,5,5,1,2,5
+4566,Northern Ireland,Female,NA,Other,Yes,£1501-£2600,No,Less than a year ,At least once in last 6 months,5,2,4,5,5,5,5,2,4
+4591,Northern Ireland,Male,38,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,Prefer not to say,No,1-2 years,,5,4,5,5,5,5,1,1,6
+4618,South West,Male,49,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£2601-£4300,No,Less than a year ,Every Saturday,5,5,5,5,5,5,1,1,3
+4636,Northern Ireland,Male,56,"A University or College Degree, or higher",No,£431-£1500,Yes,1-2 years,Every Saturday,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4652,South West,Female,44,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",No,Less than £430,No,Less than a year ,,4,2,4,3,4,4,2,2,6
+4665,South West,Male,51,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£2601-£4300,No,Less than a year ,Every Saturday,4,2,4,5,3,3,2,2,4
+4669,South West,Female,38,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£431-£1500,No,Less than a year ,Every Saturday,5,6,5,5,5,5,1,2,6
+4672,South West,Male,37,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£2601-£4300,No,3-4 years,At least once a month,5,3,5,5,5,5,1,1,5
+4675,South West,Male,63,"A University or College Degree, or higher",No,£2601-£4300,No,1-2 years,Every Saturday,4,1,3,5,3,1,4,5,3
+4690,London,Male,40,"A University or College Degree, or higher",Yes,£431-£1500,No,Less than a year ,Every Saturday,4,5,4,4,4,3,2,2,3
+4706,London,Male,32,"A University or College Degree, or higher",NA,£2601-£4300,No,Less than a year ,At least once a month,5,5,5,5,5,3,1,1,3
+4727,London,Female,NA,"A University or College Degree, or higher",Yes,£2601-£4300,No,NA,NA,5,5,5,4,6,3,1,5,5
+4730,South West,Female,42,"A University or College Degree, or higher",Yes,Prefer not to say,No,1-2 years,At least once a month,5,1,5,5,5,4,2,1,3
+4731,South West,Female,44,"A University or College Degree, or higher",Yes,£4301-£8300,No,1-2 years,,5,6,5,4,4,6,1,6,4
+4740,Scotland,Female,47,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£431-£1500,No,Less than a year ,At least once in last 6 months,4,2,4,NA,3,3,5,3,3
+4765,South West,Male,61,"A University or College Degree, or higher",Yes,£4301-£8300,No,Less than a year ,At least once a month,4,3,4,5,4,NA,1,2,6
+4770,South West,Female,47,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,At least once a month,5,3,5,5,5,5,2,1,5
+4783,Northern Ireland,Female,47,Prefer not to say,Yes,£1501-£2600,No,Less than a year ,At least once a month,5,3,5,4,5,5,1,1,3
+4831,South West,Male,44,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£431-£1500,No,Less than a year ,At least once a month,1,3,2,1,1,1,6,6,6
+4836,London,Male,32,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£431-£1500,No,Less than a year ,,5,5,5,5,5,5,3,1,3
+4853,South West,Female,37,"A University or College Degree, or higher",Yes,£4301-£8300,No,3-4 years,At least once in last 6 months,4,2,5,5,5,5,1,1,5
+4874,Scotland,Female,40,NA,Yes,£431-£1500,No,1-2 years,Every Saturday,5,1,5,5,5,4,1,1,6
+4878,Scotland,Female,68,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",No,Prefer not to say,No,3-4 years,Every Saturday,5,4,5,NA,NA,NA,NA,NA,NA
+4880,South West,Female,38,"A University or College Degree, or higher",Yes,£1501-£2600,NA,3-4 years,At least once a month,5,3,5,5,5,5,2,2,5
+4928,South West,Male,42,"A University or College Degree, or higher",Yes,£2601-£4300,No,3-4 years,At least once a month,4,2,3,5,4,6,1,2,6
+4935,London,Female,32,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£431-£1500,Yes,3-4 years,Every Saturday,5,5,4,4,4,3,NA,2,3
+4961,South West,Female,28,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,Every Saturday,5,3,6,5,3,5,1,1,6
+4968,South West,Female,27,"A University or College Degree, or higher",No,£431-£1500,No,Less than a year ,At least once a month,5,1,4,3,4,3,2,1,5
+4981,Northern Ireland,Female,44,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£431-£1500,No,1-2 years,Every Saturday,5,5,4,5,5,5,2,2,5
+4983,South West,Female,59,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£431-£1500,No,3-4 years,At least once a month,5,5,4,5,5,5,3,1,5
+4999,Scotland,Female,34,"A University or College Degree, or higher",No,£4301-£8300,No,3-4 years,At least once in last 6 months,5,5,5,5,4,5,2,2,5
+5004,London,Female,28,"A University or College Degree, or higher",Yes,£4301-£8300,No,1-2 years,Every Saturday,4,4,5,5,5,5,1,6,6
+5017,South West,Female,56,Other,Yes,£431-£1500,No,3-4 years,Every Saturday,5,2,5,6,4,5,1,3,6
+5056,London,Male,37,"A University or College Degree, or higher",Yes,£2601-£4300,No,Less than a year ,Every Saturday,5,5,4,5,5,4,2,NA,3
+5099,London,Male,45,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£4301-£8300,No,3-4 years,At least once a month,5,4,4,5,5,5,1,1,6
+5120,Scotland,Female,39,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£431-£1500,No,Less than a year ,Every Saturday,5,3,5,5,3,3,1,3,5
+5122,London,Male,29,"A University or College Degree, or higher",Yes,£431-£1500,No,Less than a year ,Every Saturday,5,5,3,3,4,3,5,2,3
+5128,London,Female,34,Other,Yes,£2601-£4300,No,Less than a year ,Every Saturday,5,5,5,5,5,3,2,1,3
+5145,London,Male,33,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,At least once a month,5,5,4,5,4,2,2,2,5
+5174,Northern Ireland,Female,29,"A University or College Degree, or higher",Yes,£1501-£2600,No,1-2 years,At least once a month,5,6,5,4,4,3,2,6,1
+5180,Scotland,Male,52,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,"More than £12,500",No,Less than a year ,At least once a month,5,5,5,5,5,5,2,2,5
+5232,Northern Ireland,Female,NA,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",No,Prefer not to say,Yes,1-2 years,Every Saturday,NA,NA,NA,NA,NA,NA,NA,NA,NA
+5238,London,Male,40,"A University or College Degree, or higher",Yes,Prefer not to say,No,1-2 years,,5,3,4,5,4,6,1,3,5
+5239,London,Female,41,"A University or College Degree, or higher",Yes,£2601-£4300,No,3-4 years,Every Saturday,5,5,5,5,5,3,1,6,6
+5252,London,Female,44,"A University or College Degree, or higher",Yes,£1501-£2600,No,3-4 years,Every Saturday,5,5,4,4,4,3,2,2,6
+5278,South West,Male,41,"A University or College Degree, or higher",Yes,£1501-£2600,No,3-4 years,At least once a month,5,1,4,5,5,2,2,1,4
+5279,London,Female,31,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,Every Saturday,5,5,5,5,5,5,3,1,6
+5294,South West,Male,49,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£431-£1500,No,1-2 years,Every Saturday,5,4,4,5,4,5,NA,2,6
+5312,Scotland,Female,53,"A University or College Degree, or higher",Yes,£4301-£8300,No,3-4 years,At least once a month,5,5,4,4,4,2,3,1,4
+5323,Scotland,Female,27,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£1501-£2600,No,Less than a year ,At least once a month,5,1,5,5,6,5,1,3,4
+5372,NA,Female,58,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£1501-£2600,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+5385,South West,Male,52,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£1501-£2600,No,1-2 years,At least once in last 6 months,3,3,3,5,5,5,2,2,3
+5408,Northern Ireland,Male,41,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£1501-£2600,No,Less than a year ,,5,5,5,5,5,5,5,1,1
+5424,South West,Female,41,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£431-£1500,No,Less than a year ,Every Saturday,5,5,5,5,5,5,1,1,3
+5431,Northern Ireland,Male,33,"A University or College Degree, or higher",Yes,£431-£1500,No,1-2 years,Every Saturday,5,3,5,5,5,6,3,4,6
+5435,Scotland,Male,55,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,At least once in last 6 months,5,5,4,5,4,5,5,5,5
+5463,Scotland,Prefer not to say ,44,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,At least once a month,5,3,5,5,5,4,2,5,6
+5473,South West,Male,54,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£1501-£2600,No,3-4 years,Every Saturday,4,1,5,5,5,6,2,2,3
+5474,London,Male,59,"A University or College Degree, or higher",Yes,£431-£1500,Yes,Less than a year ,At least once in last 6 months,5,5,5,5,5,5,2,1,4
+5476,Scotland,Female,34,"A University or College Degree, or higher",Yes,£2601-£4300,Yes,3-4 years,At least once in last 6 months,5,3,3,5,2,5,1,1,5
+5478,South West,Male,50,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,At least once a month,4,6,4,5,3,3,2,1,5
+5483,London,Female,49,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,Every Saturday,5,4,4,5,4,3,2,2,3
+5500,Northern Ireland,Female,32,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£431-£1500,No,1-2 years,Every Saturday,5,5,5,6,6,6,1,1,5
+5534,Northern Ireland,Male,37,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£431-£1500,No,1-2 years,,5,2,5,5,5,5,NA,3,1
+5546,South West,Male,76,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£1501-£2600,Yes,3-4 years,Every Saturday,5,4,5,6,5,6,2,2,6
+5552,London,Male,40,Other,No,NA,No,1-2 years,,5,5,5,6,4,5,6,3,4
+5601,London,Male,29,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,At least once a month,4,5,3,4,4,3,2,1,5
+5615,South West,Female,48,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£1501-£2600,Yes,1-2 years,Every Saturday,5,4,5,5,5,5,2,4,5
+5618,South West,Female,50,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,Less than £430,No,1-2 years,At least once in last 6 months,4,2,4,4,4,3,2,3,3
+5630,Scotland,Male,66,"HND, HNC, NVQ/SVQ Level 4 or equivalent",No,£1501-£2600,No,3-4 years,Every Saturday,5,3,4,5,5,4,4,3,3
+5633,Scotland,Male,46,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£1501-£2600,No,5 years or more ,At least once a month,5,3,4,5,5,4,3,4,6
+5635,London,Male,30,"A University or College Degree, or higher",Yes,£4301-£8300,No,Less than a year ,At least once in last 6 months,5,5,5,5,5,6,1,1,6
+5648,South West,Male,45,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£4301-£8300,No,3-4 years,At least once a month,5,1,4,5,4,5,3,4,3
+5657,London,Male,38,"A University or College Degree, or higher",Yes,£2601-£4300,No,Less than a year ,Every Saturday,5,5,4,4,6,3,1,1,5
+5664,Scotland,Male,44,Other,Yes,£2601-£4300,No,3-4 years,,5,2,5,5,5,5,3,3,3
+5676,South West,Female,NA,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£2601-£4300,No,1-2 years,At least once a month,5,2,5,4,4,4,1,5,5
+5680,London,Female,23,"A University or College Degree, or higher",Yes,£2601-£4300,No,Less than a year ,,4,5,4,5,5,5,3,1,3
+5744,South West,Female,38,"A University or College Degree, or higher",Yes,£2601-£4300,No,5 years or more ,Every Saturday,5,2,5,5,5,5,2,2,6
+5750,South West,Male,60,"A University or College Degree, or higher",Yes,"More than £12,500",No,Less than a year ,At least once a month,4,2,4,4,4,3,1,1,3
+5760,London,Male,31,"A University or College Degree, or higher",Yes,£1501-£2600,No,1-2 years,Every Saturday,5,5,4,5,5,2,2,2,2
+5761,Scotland,NA,50,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£431-£1500,No,1-2 years,At least once a month,5,2,5,5,4,4,2,2,3
+5781,South West,Female,43,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£431-£1500,No,3-4 years,At least once a month,5,3,5,5,4,5,3,3,3
+5793,Northern Ireland,Female,40,"A University or College Degree, or higher",Yes,Prefer not to say,No,3-4 years,At least once in last 6 months,5,1,5,5,3,4,2,1,6
+5808,South West,Male,64,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£2601-£4300,No,3-4 years,Every Saturday,5,5,5,5,5,5,2,6,6
+5852,South West,Male,68,"A University or College Degree, or higher",Yes,£1501-£2600,No,3-4 years,Every Saturday,5,5,5,5,4,4,1,1,5
+5890,South West,Male,36,"A University or College Degree, or higher",Yes,£2601-£4300,No,Less than a year ,At least once a month,5,1,5,5,4,5,1,3,6
+5897,Scotland,Female,29,"A University or College Degree, or higher",Yes,£431-£1500,No,3-4 years,At least once a month,4,1,5,5,4,3,1,1,6
+5906,South West,Female,37,"A University or College Degree, or higher",Yes,£4301-£8300,No,Less than a year ,,5,2,4,5,4,4,2,2,5
+5930,South West,Male,47,"A University or College Degree, or higher",Yes,Prefer not to say,No,1-2 years,Every Saturday,5,5,5,5,5,5,2,6,5
+5941,South West,Female,53,NA,Yes,£2601-£4300,No,3-4 years,At least once a month,5,5,5,5,5,5,1,NA,6
+5978,London,Male,33,Other,Yes,£4301-£8300,No,Less than a year ,Every Saturday,5,5,4,4,4,3,3,1,3
+5985,NA,Prefer not to say ,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+5988,South West,Female,45,"A University or College Degree, or higher",Yes,£431-£1500,No,3-4 years,Every Saturday,4,2,4,5,3,3,3,1,3
+5990,South West,Male,45,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£1501-£2600,No,3-4 years,Every Saturday,5,3,4,5,3,4,3,2,1
+5999,South West,Female,28,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£1501-£2600,No,1-2 years,At least once a month,5,3,5,5,5,5,1,6,6
+6004,Scotland,Male,38,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,Every Saturday,4,3,4,5,4,3,2,4,4
+6022,Scotland,Female,41,"A University or College Degree, or higher",Yes,£431-£1500,No,3-4 years,Every Saturday,5,2,5,5,4,4,1,2,6
+6032,South West,Female,29,"A University or College Degree, or higher",Yes,£1501-£2600,No,1-2 years,Every Saturday,5,2,5,5,4,4,1,2,4
+6037,South West,Male,29,"A University or College Degree, or higher",Yes,"More than £12,500",No,Less than a year ,At least once a month,4,2,4,4,4,4,2,2,4
+6051,South West,Female,36,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£1501-£2600,No,Less than a year ,At least once a month,5,5,5,5,5,5,2,2,6
+6055,South West,Male,72,No formal qualification,No,NA,Yes,3-4 years,At least once a month,5,3,5,5,5,5,1,6,6
+6059,Scotland,Female,52,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£431-£1500,No,3-4 years,At least once in a year,5,1,4,NA,5,6,4,6,6
+6081,London,Male,18,NA,No,NA,No,3-4 years,Every Saturday,5,3,4,4,5,4,2,2,6
+6083,South West,Female,50,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,Every Saturday,5,2,5,5,5,4,1,1,3
+6088,South West,Female,29,"A University or College Degree, or higher",Yes,£1501-£2600,No,3-4 years,,5,3,5,5,4,5,3,1,5
+6099,South West,Female,42,"A University or College Degree, or higher",Yes,£4301-£8300,No,1-2 years,At least once a month,4,2,5,5,5,5,2,2,4
+6208,NA,Female,41,"A University or College Degree, or higher",Yes,£2601-£4300,No,Less than a year ,At least once in last 6 months,5,2,4,3,4,3,NA,1,1
+6216,London,Female,60,"A University or College Degree, or higher",Yes,£4301-£8300,No,3-4 years,At least once a month,5,5,4,5,5,1,1,1,6
+6224,London,Male,38,"A University or College Degree, or higher",Yes,£4301-£8300,No,1-2 years,Every Saturday,5,5,4,4,4,3,1,1,4
+6225,Scotland,Female,22,"A University or College Degree, or higher",No,Less than £430,No,Less than a year ,,5,2,5,5,5,3,2,5,5
+6234,Scotland,Male,37,"A University or College Degree, or higher",Yes,£1501-£2600,No,1-2 years,At least once a month,5,5,4,4,5,6,1,1,5
+6245,South West,Male,50,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£1501-£2600,No,3-4 years,At least once a month,5,3,4,5,4,5,1,1,4
+6252,London,Female,49,"A University or College Degree, or higher",Yes,£8301-£12500,No,3-4 years,Every Saturday,5,5,5,5,5,5,NA,1,5
+6308,Scotland,Male,39,"A University or College Degree, or higher",Yes,£2601-£4300,No,Less than a year ,At least once a month,5,3,4,5,4,4,2,2,6
+6327,Scotland,Female,46,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,At least once a month,5,5,5,6,3,3,1,3,3
+6331,London,Male,39,"A University or College Degree, or higher",Yes,Prefer not to say,No,3-4 years,Every Saturday,5,5,5,5,5,4,2,1,5
+6342,Northern Ireland,Female,60,No formal qualification,No,Less than £430,No,1-2 years,At least once a month,4,5,5,NA,4,5,3,3,3
+6351,Scotland,Male,43,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£1501-£2600,No,Less than a year ,Every Saturday,5,5,5,5,5,4,1,1,1
+6356,Scotland,Male,46,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,At least once a month,5,4,5,5,5,5,1,1,5
+6361,London,Female,28,"A University or College Degree, or higher",Yes,£1501-£2600,No,3-4 years,Every Saturday,5,4,5,5,3,5,2,4,3
+6365,Scotland,Male,47,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£2601-£4300,No,1-2 years,At least once in last 6 months,5,4,5,5,4,3,2,2,3
+6375,Northern Ireland,Female,40,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£1501-£2600,No,Less than a year ,Every Saturday,5,5,4,4,5,5,3,1,5
+6379,South West,Female,50,"A University or College Degree, or higher",Yes,"More than £12,500",No,3-4 years,Every Saturday,5,5,5,4,4,4,2,1,3
+6393,Scotland,Male,27,"A University or College Degree, or higher",Yes,£431-£1500,No,1-2 years,Every Saturday,5,2,5,4,5,4,2,1,5
+6394,Scotland,Female,42,"A University or College Degree, or higher",Yes,£1501-£2600,No,1-2 years,Every Saturday,5,2,4,6,3,3,1,6,6
+6396,London,Female,47,"A University or College Degree, or higher",Yes,"More than £12,500",No,3-4 years,At least once in last 6 months,5,5,5,5,5,5,1,1,5
+6418,London,Female,44,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6489,South West,Male,54,"A University or College Degree, or higher",Yes,£2601-£4300,No,3-4 years,At least once a month,5,1,5,5,4,3,1,1,6
+6496,South West,Female,59,"A University or College Degree, or higher",No,Prefer not to say,No,1-2 years,At least once in last 6 months,5,1,5,5,5,5,1,1,3
+6529,South West,Female,64,Other,Yes,"More than £12,500",No,3-4 years,,5,2,5,3,3,3,3,1,4
+6532,London,Male,24,"A University or College Degree, or higher",Yes,£1501-£2600,No,3-4 years,At least once a month,5,5,5,5,5,4,1,1,4
+6538,Northern Ireland,Female,29,"A University or College Degree, or higher",Yes,£431-£1500,No,3-4 years,At least once a month,5,5,3,5,4,4,2,2,6
+6551,Scotland,Female,52,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£1501-£2600,No,Less than a year ,At least once a month,5,2,6,6,6,6,1,1,6
+6562,Scotland,Female,34,"A University or College Degree, or higher",Yes,£1501-£2600,No,1-2 years,At least once in last 6 months,1,3,2,1,1,1,4,5,6
+6567,South West,Male,31,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,Every Saturday,5,2,4,5,4,3,1,2,5
+6589,Northern Ireland,Female,47,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£431-£1500,No,1-2 years,Every Saturday,5,5,5,5,5,5,1,1,6
+6603,Northern Ireland,Female,51,Other,Yes,£431-£1500,Yes,1-2 years,At least once a month,5,6,5,5,5,5,1,1,5
+6610,Scotland,Male,33,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,At least once a month,5,1,5,5,4,5,1,4,5
+6617,London,Male,36,"A University or College Degree, or higher",Yes,£4301-£8300,No,1-2 years,Every Saturday,5,5,5,5,5,5,1,1,5
+6639,South West,Female,51,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£431-£1500,Yes,3-4 years,At least once a month,5,5,4,4,4,4,3,1,3
+6651,South West,Male,16,NA,No,Prefer not to say,No,Less than a year ,,5,5,5,5,5,5,1,1,6
+6652,London,Male,32,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,Every Saturday,5,4,5,5,2,2,1,1,5
+6654,Northern Ireland,Male,27,"A University or College Degree, or higher",Yes,£1501-£2600,No,1-2 years,Every Saturday,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6657,Northern Ireland,Female,62,"A University or College Degree, or higher",No,£4301-£8300,No,3-4 years,At least once a month,4,2,4,4,4,3,5,3,4
+6664,South West,Male,46,"A University or College Degree, or higher",Yes,£431-£1500,No,Less than a year ,At least once a month,5,2,4,4,3,4,1,2,4
+6681,Scotland,Female,45,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£431-£1500,No,3-4 years,At least once in last 6 months,4,4,4,6,5,5,3,1,3
+6732,Scotland,Female,39,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,Every Saturday,5,4,4,5,4,4,3,2,3
+6741,South West,Female,46,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",No,£431-£1500,No,1-2 years,At least once in last 6 months,4,4,3,5,3,3,3,2,5
+6742,Scotland,Female,39,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£1501-£2600,No,Less than a year ,Every Saturday,5,5,5,5,5,4,1,6,3
+6752,South West,Male,36,"A University or College Degree, or higher",Yes,£1501-£2600,No,5 years or more ,Every Saturday,5,5,5,5,5,4,1,1,5
+6753,NA,Female,17,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",NA,NA,NA,1-2 years,,5,3,5,4,5,5,1,1,6
+6789,London,Female,32,"A University or College Degree, or higher",Yes,£431-£1500,No,Less than a year ,,5,5,5,5,5,4,2,2,3
+6800,Northern Ireland,Female,62,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",No,£431-£1500,No,Less than a year ,,5,2,5,5,5,5,1,1,3
+6804,South West,Male,33,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£1501-£2600,No,1-2 years,At least once in last 6 months,5,4,5,3,5,3,2,2,6
+6827,Scotland,Female,50,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£431-£1500,No,3-4 years,At least once a month,5,3,5,5,3,2,1,1,5
+6829,Northern Ireland,Male,47,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£2601-£4300,No,3-4 years,At least once a month,5,5,5,5,5,5,3,2,5
+6835,South West,Female,45,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£2601-£4300,No,3-4 years,At least once in a year,4,4,4,5,4,3,5,3,3
+6845,Northern Ireland,Female,42,"A University or College Degree, or higher",No,Less than £430,No,1-2 years,Every Saturday,5,2,4,4,4,3,2,2,3
+6851,South West,Female,38,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,NA,No,Less than a year ,Every Saturday,5,2,5,5,5,5,1,2,5
+6872,Northern Ireland,Male,50,"A University or College Degree, or higher",Yes,£1501-£2600,No,3-4 years,,5,4,5,4,4,5,1,1,5
+6884,London,Female,34,"A University or College Degree, or higher",Yes,£4301-£8300,No,1-2 years,,5,5,5,5,4,4,2,1,3
+6885,Northern Ireland,Male,48,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,Every Saturday,5,4,3,5,4,3,2,2,5
+6895,Northern Ireland,Male,53,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£431-£1500,No,3-4 years,Every Saturday,5,2,5,5,5,5,2,2,5
+6901,London,Male,53,"A University or College Degree, or higher",Yes,Prefer not to say,No,Less than a year ,At least once a month,4,5,4,5,4,4,2,1,6
+6906,South West,Female,43,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£431-£1500,No,Less than a year ,Every Saturday,5,5,5,5,5,5,1,5,3
+6939,South West,Male,45,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£2601-£4300,No,Less than a year ,Every Saturday,5,5,5,5,5,4,1,6,4
+6953,South West,Male,40,"A University or College Degree, or higher",Yes,£2601-£4300,No,3-4 years,Every Saturday,5,3,5,5,5,5,2,3,3
+6975,Scotland,Male,34,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£431-£1500,No,Less than a year ,Every Saturday,5,5,5,5,5,5,1,1,5
+6977,South West,Male,23,"A University or College Degree, or higher",Yes,£431-£1500,No,1-2 years,Every Saturday,5,2,5,4,4,4,1,5,6
+6982,Scotland,Female,52,"A University or College Degree, or higher",Yes,£2601-£4300,No,Less than a year ,,4,2,5,5,3,2,2,1,5
+6984,Scotland,Female,NA,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,At least once in a year,5,1,5,5,5,3,1,3,6
+7000,South West,Female,39,"A University or College Degree, or higher",Yes,£1501-£2600,No,3-4 years,At least once in last 6 months,5,1,5,5,4,4,1,2,6
+7011,South West,Female,44,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£4301-£8300,No,1-2 years,Every Saturday,5,3,5,5,4,5,2,3,3
+7018,South West,Male,55,NA,Yes,£1501-£2600,No,3-4 years,At least once a month,5,5,4,5,5,4,3,1,6
+7026,South West,Female,37,"A University or College Degree, or higher",No,NA,No,Less than a year ,At least once a month,5,2,5,5,5,6,2,1,6
+7053,Northern Ireland,Male,30,"A University or College Degree, or higher",Yes,£4301-£8300,No,Less than a year ,At least once a month,5,3,5,5,3,5,2,2,5
+7057,South West,Male,35,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£431-£1500,No,Less than a year ,Every Saturday,4,4,4,3,3,4,2,2,2
+7062,Northern Ireland,Male,63,"A University or College Degree, or higher",Yes,£431-£1500,No,3-4 years,Every Saturday,5,5,5,5,5,5,1,1,5
+7063,South West,Female,40,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£1501-£2600,Yes,Less than a year ,Every Saturday,5,3,5,5,3,5,4,3,3
+7081,London,Female,27,"A University or College Degree, or higher",Yes,£1501-£2600,No,3-4 years,,5,5,5,5,5,5,NA,1,6
+7104,Scotland,Male,19,"A University or College Degree, or higher",Yes,£4301-£8300,No,1-2 years,Every Saturday,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7107,NA,Male,60,"A University or College Degree, or higher",Yes,£1501-£2600,No,1-2 years,At least once a month,5,1,4,5,5,4,1,1,6
+7108,Scotland,Female,61,Other,No,Prefer not to say,No,3-4 years,,5,5,4,5,4,4,NA,NA,NA
+7149,Scotland,Male,45,"A University or College Degree, or higher",Yes,£2601-£4300,No,Less than a year ,At least once a month,5,3,4,4,4,4,3,3,3
+7171,South West,Male,43,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£1501-£2600,No,3-4 years,At least once a month,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7231,South West,Female,NA,"A University or College Degree, or higher",Yes,Prefer not to say,No,1-2 years,Every Saturday,4,2,4,4,3,4,3,3,6
+7239,South West,Female,45,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£431-£1500,No,Less than a year ,At least once a month,5,5,5,5,5,3,1,1,3
+7255,South West,Female,51,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,Prefer not to say,No,3-4 years,At least once a month,5,6,5,3,1,5,1,5,3
+7258,Scotland,Female,64,Other,No,Prefer not to say,No,1-2 years,,5,2,5,5,5,5,2,2,6
+7261,South West,Female,40,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£4301-£8300,No,1-2 years,At least once a month,4,3,4,5,4,4,2,1,3
+7262,South West,Female,55,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£1501-£2600,No,3-4 years,At least once a month,5,6,4,5,5,5,2,2,4
+7281,Northern Ireland,Female,17,Prefer not to say,No,Prefer not to say,No,Less than a year ,At least once a month,4,2,4,5,5,5,2,3,6
+7319,Scotland,Female,43,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£1501-£2600,No,1-2 years,Every Saturday,5,1,4,5,5,3,2,3,6
+7350,NA,Female,68,"A University or College Degree, or higher",No,£1501-£2600,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7363,London,Female,24,"A University or College Degree, or higher",Yes,£1501-£2600,No,1-2 years,Every Saturday,5,5,5,5,5,5,1,1,5
+7405,South West,Male,69,"A University or College Degree, or higher",No,"More than £12,500",No,3-4 years,Every Saturday,5,5,5,5,6,5,2,1,NA
+7413,South West,Female,38,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£431-£1500,No,3-4 years,At least once in last 6 months,5,2,NA,5,5,5,1,5,5
+7437,South West,Male,41,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£2601-£4300,No,3-4 years,Every Saturday,5,2,5,5,4,5,2,2,4
+7451,South West,Male,53,"A University or College Degree, or higher",Yes,£4301-£8300,No,Less than a year ,At least once in last 6 months,5,1,5,6,6,5,1,NA,6
+7457,Scotland,Male,53,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£1501-£2600,No,1-2 years,Every Saturday,5,3,5,5,5,5,1,5,1
+7461,South West,Male,47,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£1501-£2600,No,5 years or more ,At least once a month,5,6,4,5,3,4,3,6,4
+7490,London,Male,32,"A University or College Degree, or higher",NA,£8301-£12500,No,1-2 years,At least once a month,5,5,4,4,5,4,2,1,4
+7497,NA,Female,64,"A University or College Degree, or higher",NA,NA,NA,NA,NA,5,5,5,5,5,5,NA,1,6
+7498,NA,Male,51,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,Prefer not to say,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7500,South West,Female,48,"A University or College Degree, or higher",Yes,Prefer not to say,No,3-4 years,At least once a month,5,2,5,6,5,6,2,1,4
+7506,South West,Female,30,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,At least once in a year,5,2,5,5,5,4,1,3,3
+7515,South West,Female,47,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£431-£1500,No,3-4 years,Every Saturday,5,2,4,5,3,4,2,2,3
+7517,Scotland,Female,33,"A University or College Degree, or higher",Yes,Less than £430,No,Less than a year ,At least once in last 6 months,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7529,South West,Male,44,NA,Yes,£4301-£8300,No,1-2 years,Every Saturday,5,5,5,5,3,4,1,3,3
+7563,South West,Female,33,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",No,NA,No,3-4 years,Every Saturday,5,5,4,5,4,4,2,2,3
+7571,Scotland,Female,49,"A University or College Degree, or higher",No,Less than £430,No,Less than a year ,At least once a month,5,2,4,4,4,3,1,1,5
+7577,Scotland,Male,57,Other,Yes,£8301-£12500,No,Less than a year ,Every Saturday,5,3,5,5,4,5,2,3,5
+7596,London,Male,34,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£431-£1500,No,1-2 years,,5,5,5,3,5,5,3,1,5
+7598,South West,Male,42,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£1501-£2600,No,3-4 years,At least once a month,5,5,5,5,5,5,6,6,5
+7601,Scotland,Female,31,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,At least once a month,5,5,5,5,3,5,2,2,6
+7625,Scotland,Male,50,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,Every Saturday,5,2,4,4,3,4,2,2,6
+7646,London,Male,41,"A University or College Degree, or higher",No,£4301-£8300,No,Less than a year ,,5,5,4,5,5,5,1,1,5
+7662,South West,Male,33,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£2601-£4300,No,Less than a year ,At least once in last 6 months,5,2,4,5,4,4,4,4,4
+7687,South West,Female,34,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£431-£1500,No,1-2 years,At least once in last 6 months,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7688,South West,Female,36,"A University or College Degree, or higher",Yes,£2601-£4300,No,5 years or more ,At least once a month,5,5,4,5,5,5,5,6,5
+7700,London,Male,31,"A University or College Degree, or higher",Yes,£1501-£2600,No,3-4 years,At least once a month,5,5,5,5,5,1,1,1,3
+7701,South West,Female,38,"A University or College Degree, or higher",Yes,£1501-£2600,No,5 years or more ,Every Saturday,5,4,5,5,5,4,1,1,5
+7731,South West,Male,50,"A University or College Degree, or higher",Yes,£4301-£8300,No,Less than a year ,Every Saturday,5,2,4,3,2,3,2,2,2
+7733,London,Female,52,"A University or College Degree, or higher",Yes,£2601-£4300,No,Less than a year ,Every Saturday,5,5,5,5,5,5,1,1,5
+7750,Northern Ireland,NA,48,"A University or College Degree, or higher",Yes,£8301-£12500,No,1-2 years,At least once in last 6 months,5,3,5,5,5,4,2,2,6
+7762,South West,Male,51,"A University or College Degree, or higher",Yes,£1501-£2600,Yes,3-4 years,Every Saturday,5,4,5,4,4,3,2,2,5
+7775,London,Female,38,"A University or College Degree, or higher",Yes,Prefer not to say,No,Less than a year ,At least once a month,5,5,5,5,4,4,1,1,6
+7798,South West,Female,39,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£431-£1500,No,Less than a year ,At least once a month,4,2,4,4,4,4,2,2,3
+7804,South West,Female,50,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£1501-£2600,No,3-4 years,Every Saturday,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7805,South West,Female,35,"A University or College Degree, or higher",Yes,£2601-£4300,No,Less than a year ,Every Saturday,5,3,5,5,5,3,NA,1,3
+7839,South West,Male,31,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£1501-£2600,No,3-4 years,Every Saturday,5,1,5,5,5,5,1,1,1
+7847,South West,Female,37,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£8301-£12500,No,3-4 years,At least once in last 6 months,4,3,4,3,4,4,4,2,2
+7873,South West,Male,46,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£1501-£2600,No,Less than a year ,Every Saturday,5,4,5,5,5,5,1,6,6
+7884,London,Female,33,"A University or College Degree, or higher",Yes,£1501-£2600,No,3-4 years,Every Saturday,5,5,5,5,5,3,NA,1,1
+7914,South West,Male,45,"A University or College Degree, or higher",Yes,£1501-£2600,Yes,3-4 years,Every Saturday,5,3,5,5,5,5,1,1,3
+7934,South West,Male,52,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£1501-£2600,No,Less than a year ,Every Saturday,5,5,4,4,4,5,2,2,3
+7951,Northern Ireland,Female,43,Other,Yes,£1501-£2600,No,Less than a year ,NA,4,3,4,5,5,5,NA,1,NA
+7954,Northern Ireland,Male,52,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,At least once in last 6 months,5,1,5,3,5,5,1,1,3
+7978,South West,Female,56,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£431-£1500,No,Less than a year ,At least once a month,5,4,5,5,5,4,2,3,6
+7991,South West,Female,30,"A University or College Degree, or higher",Yes,£431-£1500,No,1-2 years,At least once a month,4,2,5,5,4,3,1,2,3
+7993,South West,Male,39,"A University or College Degree, or higher",Yes,£2601-£4300,Yes,Less than a year ,At least once a month,4,3,5,5,4,4,2,2,5
+8008,London,Male,58,"A University or College Degree, or higher",Yes,£431-£1500,No,3-4 years,At least once a month,5,3,4,4,5,4,2,NA,5
+8015,South West,Male,65,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",No,Prefer not to say,No,3-4 years,Every Saturday,5,4,4,6,6,5,2,1,5
+8033,Northern Ireland,Male,36,"A University or College Degree, or higher",Yes,Prefer not to say,No,Less than a year ,Every Saturday,5,1,5,5,5,5,1,1,5
+8043,London,Male,24,"A University or College Degree, or higher",Yes,£1501-£2600,No,1-2 years,Every Saturday,5,5,5,6,6,6,2,1,1
+8049,South West,Male,47,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£4301-£8300,No,3-4 years,Every Saturday,5,4,5,5,5,5,1,1,6
+8053,Scotland,Female,48,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,At least once a month,4,2,5,5,4,3,1,6,3
+8115,South West,Male,58,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£2601-£4300,No,3-4 years,Every Saturday,5,5,5,5,5,4,1,6,3
+8134,Northern Ireland,Female,25,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,At least once a month,5,4,5,5,5,5,1,1,3
+8163,London,Male,36,"A University or College Degree, or higher",Yes,£2601-£4300,No,Less than a year ,,5,5,5,5,5,4,1,1,5
+8165,South West,Female,34,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£431-£1500,No,Less than a year ,At least once in last 6 months,3,4,3,4,4,4,3,2,4
+8196,South West,Female,34,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£431-£1500,No,1-2 years,At least once a month,5,2,5,3,4,4,3,2,3
+8225,South West,Female,33,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£431-£1500,No,1-2 years,Every Saturday,5,1,4,5,3,3,5,1,3
+8236,South West,Male,57,"A University or College Degree, or higher",Yes,£1501-£2600,Yes,3-4 years,Every Saturday,5,5,5,5,5,5,1,1,5
+8237,Scotland,Female,23,"A University or College Degree, or higher",Yes,Less than £430,No,3-4 years,At least once a month,5,4,5,5,2,3,1,4,5
+8239,South West,Female,57,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,Every Saturday,5,4,5,5,4,4,2,1,5
+8240,Northern Ireland,Female,48,"A University or College Degree, or higher",Yes,Prefer not to say,No,Less than a year ,At least once a month,5,1,5,5,5,3,1,1,6
+8246,NA,Female,49,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£431-£1500,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+8255,Scotland,Female,43,"A University or College Degree, or higher",Yes,£1501-£2600,No,1-2 years,At least once a month,NA,NA,NA,NA,NA,NA,NA,NA,NA
+8256,South West,Male,24,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,At least once in last 6 months,4,2,4,5,4,3,2,2,3
+8271,South West,Male,48,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£2601-£4300,Yes,3-4 years,Every Saturday,5,2,5,5,4,4,2,4,3
+8273,Scotland,Male,41,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,Every Saturday,5,3,4,5,5,5,1,3,3
+8288,London,Male,24,"A University or College Degree, or higher",Yes,£1501-£2600,No,3-4 years,At least once a month,5,5,5,5,6,2,2,1,3
+8312,South West,Female,40,"A University or College Degree, or higher",Yes,Less than £430,No,Less than a year ,Every Saturday,5,4,5,5,5,5,3,1,5
+8315,South West,Male,29,"A University or College Degree, or higher",Yes,£431-£1500,No,Less than a year ,At least once a month,5,5,4,4,4,4,2,1,3
+8323,South West,Female,69,"A University or College Degree, or higher",No,£2601-£4300,No,3-4 years,Every Saturday,4,4,4,5,4,3,2,2,3
+8327,London,Male,30,"A University or College Degree, or higher",Yes,£4301-£8300,No,1-2 years,At least once a month,4,4,4,3,4,4,2,2,6
+8332,Scotland,Female,53,"A University or College Degree, or higher",Yes,Less than £430,No,Less than a year ,At least once in last 6 months,5,2,4,4,5,4,2,3,4
+8334,Northern Ireland,NA,42,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",No,£431-£1500,No,5 years or more ,At least once a month,5,4,5,6,6,6,4,2,3
+8335,Scotland,Male,53,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,Every Saturday,5,3,5,5,3,5,1,3,3
+8339,South West,Female,52,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£431-£1500,No,3-4 years,At least once a month,4,5,4,5,5,5,2,2,3
+8349,South West,Female,33,"A University or College Degree, or higher",Yes,£1501-£2600,No,1-2 years,At least once in a year,NA,NA,NA,NA,NA,NA,NA,NA,NA
+8353,Northern Ireland,Female,47,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,"More than £12,500",No,Less than a year ,Every Saturday,5,2,5,5,5,5,1,3,6
+8427,South West,Male,34,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£1501-£2600,No,3-4 years,Every Saturday,5,5,4,5,5,5,2,2,6
+8431,Scotland,NA,NA,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£431-£1500,No,1-2 years,At least once in last 6 months,4,6,5,5,3,2,1,6,6
+8436,South West,Male,44,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,Every Saturday,5,3,5,5,4,1,1,3,3
+8438,London,Female,32,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,Every Saturday,5,5,5,5,5,5,1,1,5
+8448,London,Male,28,"A University or College Degree, or higher",Yes,£431-£1500,Yes,Less than a year ,At least once a month,5,5,5,5,4,6,1,1,5
+8464,South West,Male,42,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£2601-£4300,No,3-4 years,Every Saturday,6,3,6,6,6,6,1,1,6
+8472,South West,Female,44,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£431-£1500,No,1-2 years,At least once a month,5,5,5,5,5,NA,1,1,5
+8484,South West,Male,45,"A University or College Degree, or higher",Yes,Prefer not to say,No,3-4 years,Every Saturday,4,1,5,5,3,5,3,1,3
+8485,South West,Male,34,"A University or College Degree, or higher",Yes,£2601-£4300,No,Less than a year ,Every Saturday,4,2,5,5,4,3,1,1,6
+8493,London,Male,53,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£1501-£2600,No,3-4 years,Every Saturday,5,4,5,5,5,3,2,3,3
+8498,Scotland,Male,30,"A University or College Degree, or higher",Yes,£431-£1500,No,Less than a year ,Every Saturday,5,5,5,5,5,5,6,1,6
+8508,South West,Male,43,"A University or College Degree, or higher",Yes,£2601-£4300,No,Less than a year ,At least once a month,5,2,3,5,4,3,2,3,5
+8509,London,Male,26,"A University or College Degree, or higher",Yes,£1501-£2600,No,1-2 years,Every Saturday,5,5,5,5,5,5,1,1,6
+8520,South West,Female,40,"A University or College Degree, or higher",Yes,£8301-£12500,No,1-2 years,At least once a month,5,3,4,5,5,5,2,1,5
+8526,South West,Female,38,"A University or College Degree, or higher",Yes,£2601-£4300,No,Less than a year ,,5,3,4,5,4,5,2,2,3
+8545,London,Female,39,"A University or College Degree, or higher",Yes,£2601-£4300,No,3-4 years,Every Saturday,4,3,5,5,5,5,1,1,6
+8561,London,Female,29,"A University or College Degree, or higher",Yes,£4301-£8300,No,1-2 years,At least once a month,5,5,5,4,4,2,2,2,3
+8563,South West,Male,51,"HND, HNC, NVQ/SVQ Level 4 or equivalent",No,"More than £12,500",No,3-4 years,Every Saturday,4,3,4,5,3,6,2,2,6
+8565,London,Male,35,"A University or College Degree, or higher",Yes,£2601-£4300,No,3-4 years,Every Saturday,5,4,5,5,2,3,1,2,3
+8577,Scotland,Male,35,"A University or College Degree, or higher",Yes,£1501-£2600,No,3-4 years,Every Saturday,5,2,5,5,5,4,1,6,6
+8584,Northern Ireland,NA,54,"A University or College Degree, or higher",Yes,£4301-£8300,No,1-2 years,At least once a month,5,5,5,5,5,5,1,1,5
+8603,Scotland,Male,56,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£2601-£4300,No,1-2 years,Every Saturday,5,6,5,5,5,5,1,1,6
+8608,Scotland,Male,57,"A University or College Degree, or higher",Yes,£4301-£8300,No,1-2 years,Every Saturday,5,3,5,5,4,5,1,6,5
+8613,South West,Male,42,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£2601-£4300,No,1-2 years,At least once a month,5,1,4,5,3,2,1,1,6
+8618,Scotland,Male,57,"A University or College Degree, or higher",Yes,£4301-£8300,No,1-2 years,Every Saturday,5,1,5,5,4,3,1,1,5
+8636,Northern Ireland,Male,44,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,"More than £12,500",No,Less than a year ,Every Saturday,NA,NA,NA,NA,NA,NA,NA,NA,NA
+8638,Northern Ireland,Female,33,"A University or College Degree, or higher",Yes,£431-£1500,No,3-4 years,,5,3,5,5,5,5,NA,3,1
+8639,London,Male,27,"A University or College Degree, or higher",Yes,£2601-£4300,No,3-4 years,Every Saturday,5,5,4,5,4,4,2,2,4
+8694,Scotland,Male,61,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£2601-£4300,No,3-4 years,At least once a month,5,1,5,5,4,5,2,1,3
+8701,Northern Ireland,Female,39,"A University or College Degree, or higher",Yes,Prefer not to say,No,3-4 years,At least once a month,5,1,5,5,5,5,1,1,6
+8706,Scotland,Female,45,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£1501-£2600,No,1-2 years,Every Saturday,5,5,5,5,5,5,1,1,5
+8708,South West,Female,53,"A University or College Degree, or higher",Yes,£4301-£8300,No,3-4 years,Every Saturday,5,4,5,5,5,4,1,5,5
+8733,South West,Male,41,"A University or College Degree, or higher",Yes,"More than £12,500",No,1-2 years,Every Saturday,5,5,5,5,5,5,2,2,3
+8758,South West,Female,46,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,At least once a month,3,1,4,5,4,3,2,1,6
+8787,South West,Female,45,"A University or College Degree, or higher",Yes,£431-£1500,No,1-2 years,At least once a month,5,3,5,5,5,3,1,2,3
+8794,Northern Ireland,Female,35,"A University or College Degree, or higher",Yes,£1501-£2600,No,1-2 years,Every Saturday,5,3,5,5,4,3,2,3,3
+8812,South West,Female,39,"A University or College Degree, or higher",Yes,£2601-£4300,No,3-4 years,At least once in last 6 months,NA,NA,NA,NA,NA,NA,NA,NA,NA
+8813,South West,Female,48,"A University or College Degree, or higher",Yes,£2601-£4300,No,3-4 years,Every Saturday,5,1,4,5,3,1,1,1,6
+8819,Scotland,Male,67,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",No,Prefer not to say,No,3-4 years,At least once a month,5,5,5,4,4,5,1,1,6
+8859,Scotland,Male,52,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£1501-£2600,No,3-4 years,Every Saturday,5,6,4,5,5,5,1,6,4
+8867,London,Male,33,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,At least once a month,5,5,4,5,5,3,3,2,3
+8868,Northern Ireland,Female,25,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",No,Less than £430,Yes,1-2 years,,5,2,5,5,5,4,1,3,3
+8884,South West,Female,35,"A University or College Degree, or higher",Yes,£2601-£4300,No,Less than a year ,Every Saturday,5,5,5,5,5,5,2,1,5
+8889,South West,Female,NA,NA,NA,NA,NA,3-4 years,Every Saturday,NA,NA,NA,NA,NA,NA,NA,NA,NA
+8891,Northern Ireland,Male,54,"A University or College Degree, or higher",Yes,£1501-£2600,No,3-4 years,Every Saturday,1,1,1,1,1,1,3,NA,3
+8897,South West,Male,47,"A University or College Degree, or higher",Yes,"More than £12,500",No,1-2 years,Every Saturday,5,3,5,5,5,5,1,5,5
+8903,Scotland,Female,55,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£1501-£2600,No,Less than a year ,Every Saturday,NA,NA,NA,NA,NA,NA,NA,NA,NA
+8951,South West,Male,49,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£2601-£4300,No,3-4 years,At least once a month,5,1,5,5,5,4,1,3,6
+8976,South West,Male,32,"A University or College Degree, or higher",Yes,£2601-£4300,No,Less than a year ,At least once a month,5,3,5,5,5,5,2,2,3
+8981,Northern Ireland,Male,50,"A University or College Degree, or higher",Yes,£4301-£8300,No,Less than a year ,,5,6,5,5,6,5,2,6,5
+8985,Scotland,Female,38,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£8301-£12500,No,Less than a year ,At least once in last 6 months,5,2,5,5,5,5,2,2,3
+8996,London,Male,36,"A University or College Degree, or higher",Yes,"More than £12,500",No,5 years or more ,,4,4,4,3,4,4,4,1,NA
+8999,Northern Ireland,Male,50,"A University or College Degree, or higher",Yes,£2601-£4300,No,3-4 years,,5,3,5,5,5,5,1,1,6
+9012,South West,Female,46,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£1501-£2600,No,3-4 years,Every Saturday,5,4,5,5,3,4,2,2,4
+9031,South West,Female,43,"A University or College Degree, or higher",Yes,£1501-£2600,No,1-2 years,Every Saturday,4,2,4,4,4,4,2,2,6
+9059,Scotland,Female,27,"A University or College Degree, or higher",No,NA,No,Less than a year ,At least once a month,4,4,5,5,5,4,2,1,6
+9098,South West,Male,44,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£431-£1500,No,3-4 years,At least once a month,5,4,5,6,5,4,2,3,5
+9122,London,Female,25,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,Every Saturday,5,3,5,5,4,4,2,3,3
+9136,Scotland,Female,36,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,At least once a month,5,2,4,5,6,5,2,2,6
+9177,South West,Female,44,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£431-£1500,No,3-4 years,At least once a month,5,5,5,5,5,4,2,2,4
+9185,Scotland,Female,49,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£431-£1500,No,Less than a year ,At least once a month,5,2,5,5,5,5,3,3,5
+9222,London,Female,28,"A University or College Degree, or higher",Yes,£431-£1500,No,3-4 years,At least once a month,4,5,2,4,3,2,4,1,5
+9252,South West,Male,33,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£2601-£4300,No,1-2 years,At least once in last 6 months,5,3,5,4,3,3,2,1,6
+9254,South West,Female,40,"A University or College Degree, or higher",Yes,Prefer not to say,No,3-4 years,At least once in a year,NA,NA,NA,NA,NA,NA,NA,NA,NA
+9258,Scotland,Female,43,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£8301-£12500,No,Less than a year ,At least once a month,5,5,5,5,5,5,3,1,5
+9296,South West,Male,35,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,Prefer not to say,No,1-2 years,Every Saturday,5,3,5,4,4,3,1,1,5
+9315,South West,Female,30,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£2601-£4300,No,Less than a year ,At least once a month,NA,NA,NA,NA,NA,NA,NA,NA,NA
+9316,South West,Male,56,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£431-£1500,Yes,5 years or more ,At least once a month,5,5,5,5,4,4,1,1,5
+9320,Scotland,Male,76,No formal qualification,No,Prefer not to say,No,3-4 years,At least once a month,5,1,5,5,4,5,NA,6,6
+9321,Northern Ireland,Male,32,"A University or College Degree, or higher",No,Less than £430,No,Less than a year ,Every Saturday,5,1,5,5,5,6,1,3,6
+9338,Scotland,Female,40,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,Prefer not to say,No,Less than a year ,Every Saturday,5,3,5,5,6,6,3,3,3
+9356,Northern Ireland,Male,41,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£8301-£12500,No,Less than a year ,Every Saturday,4,5,5,4,5,4,5,6,6
+9364,South West,Female,27,"A University or College Degree, or higher",Yes,£2601-£4300,No,Less than a year ,At least once a month,5,2,5,6,6,5,2,2,5
+9391,Scotland,Male,43,"A University or College Degree, or higher",Yes,£1501-£2600,No,3-4 years,Every Saturday,5,1,5,5,5,5,2,NA,NA
+9396,Scotland,Male,43,"A University or College Degree, or higher",Yes,£1501-£2600,No,1-2 years,Every Saturday,1,2,1,1,1,1,2,2,1
+9406,South West,Female,40,"A University or College Degree, or higher",Yes,£2601-£4300,No,5 years or more ,Every Saturday,5,2,5,5,4,3,1,6,6
+9408,Scotland,Female,52,Other,Yes,£431-£1500,No,Less than a year ,Every Saturday,5,1,3,5,5,5,1,NA,6
+9417,Scotland,Male,66,"HND, HNC, NVQ/SVQ Level 4 or equivalent",No,£431-£1500,No,Less than a year ,NA,5,3,5,4,5,4,1,1,6
+9424,London,Female,36,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,At least once a month,5,5,4,5,NA,4,2,1,5
+9430,Northern Ireland,Female,26,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,At least once in last 6 months,5,5,5,5,5,5,1,6,5
+9466,Northern Ireland,Male,55,"A University or College Degree, or higher",Yes,£2601-£4300,No,3-4 years,Every Saturday,NA,NA,NA,NA,NA,NA,NA,NA,NA
+9483,Northern Ireland,Female,52,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,At least once a month,5,2,4,4,4,4,3,1,3
+9490,South West,Female,28,"A University or College Degree, or higher",Yes,£431-£1500,No,1-2 years,At least once a month,5,4,5,5,3,4,2,2,4
+9494,London,Female,53,"A University or College Degree, or higher",Yes,£8301-£12500,No,3-4 years,At least once a month,5,6,5,5,5,5,1,1,6
+9504,Northern Ireland,Male,30,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,Every Saturday,5,3,5,5,5,5,1,1,3
+9527,South West,Female,48,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£431-£1500,No,1-2 years,,5,3,5,5,4,5,2,4,NA
+9529,South West,Female,31,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,At least once in last 6 months,4,2,4,5,5,3,1,5,3
+9542,South West,Male,57,Other,Yes,£2601-£4300,No,3-4 years,At least once a month,5,5,5,5,5,5,1,1,5
+9543,Scotland,Male,65,"A University or College Degree, or higher",Yes,Prefer not to say,No,1-2 years,At least once a month,5,2,5,5,4,5,1,1,5
+9551,South West,Female,34,"A University or College Degree, or higher",Yes,£2601-£4300,No,Less than a year ,Every Saturday,5,2,5,5,5,4,1,2,4
+9563,London,Female,27,"A University or College Degree, or higher",Yes,£431-£1500,No,1-2 years,Every Saturday,5,5,4,5,6,3,1,1,5
+9565,South West,Female,43,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,Every Saturday,5,3,5,5,5,5,1,3,3
+9634,London,Female,30,"A University or College Degree, or higher",Yes,£431-£1500,No,1-2 years,Every Saturday,5,5,5,5,5,4,NA,1,3
+9652,Scotland,Female,49,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,£431-£1500,No,Less than a year ,At least once a month,4,2,3,3,2,4,4,4,6
+9654,Northern Ireland,Male,51,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£1501-£2600,No,1-2 years,,4,4,4,5,4,4,2,2,3
+9664,Northern Ireland,Male,52,"A University or College Degree, or higher",Yes,£4301-£8300,No,1-2 years,At least once in last 6 months,NA,NA,NA,NA,NA,NA,NA,NA,NA
+9691,NA,Male,43,Other,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+9716,South West,Male,44,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£1501-£2600,No,3-4 years,Every Saturday,5,4,4,5,5,4,3,1,3
+9737,Scotland,Male,25,"A University or College Degree, or higher",Yes,Prefer not to say,No,Less than a year ,At least once a month,5,3,5,5,5,5,1,2,6
+9751,Northern Ireland,Female,39,"A University or College Degree, or higher",No,Less than £430,No,Less than a year ,At least once a month,5,5,5,5,5,3,4,1,6
+9752,Scotland,Female,32,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,At least once a month,5,1,5,5,3,3,1,1,4
+9759,South West,Male,NA,"HND, HNC, NVQ/SVQ Level 4 or equivalent",Yes,£2601-£4300,No,1-2 years,At least once in last 6 months,5,1,5,5,5,5,1,1,3
+9779,South West,Male,42,"A University or College Degree, or higher",Yes,£1501-£2600,No,1-2 years,Every Saturday,5,2,4,4,4,4,2,2,3
+9802,Northern Ireland,Female,40,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,Every Saturday,5,3,3,4,4,4,1,1,6
+9808,Scotland,Female,34,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,At least once in last 6 months,4,1,4,5,5,2,2,3,5
+9820,Scotland,Male,32,"A University or College Degree, or higher",Yes,£1501-£2600,No,1-2 years,At least once a month,NA,NA,NA,NA,NA,NA,NA,NA,NA
+9826,Scotland,Male,31,"A University or College Degree, or higher",Yes,£2601-£4300,No,1-2 years,At least once a month,5,4,5,5,4,4,2,2,3
+9858,South West,Female,41,"A University or College Degree, or higher",Yes,"More than £12,500",No,3-4 years,At least once a month,5,2,4,5,4,4,2,2,3
+9866,South West,Female,38,"A University or College Degree, or higher",Yes,£431-£1500,No,1-2 years,At least once a month,5,1,4,5,4,3,2,3,3
+9896,NA,Male,22,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",Yes,Less than £430,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+9902,London,Male,54,"A University or College Degree, or higher",Yes,"More than £12,500",No,Less than a year ,Every Saturday,5,5,5,5,4,6,2,6,6
+9924,Northern Ireland,Male,19,"A-Levels, SCE Higher, NVQ/SVQ Level 3 or equivalent",No,NA,No,1-2 years,Every Saturday,5,5,3,4,5,5,4,1,3
+9933,Northern Ireland,Male,NA,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",No,Less than £430,No,1-2 years,At least once a month,4,3,4,4,5,5,1,3,6
+9937,South West,Male,31,"A University or College Degree, or higher",Yes,"More than £12,500",No,1-2 years,Every Saturday,5,4,5,5,5,5,2,2,4
+9939,Scotland,Female,43,"A University or College Degree, or higher",Yes,£1501-£2600,No,Less than a year ,At least once a month,4,3,4,4,3,3,3,2,4
+9969,Scotland,Female,27,"A University or College Degree, or higher",Yes,£431-£1500,No,Less than a year ,Every Saturday,5,1,4,4,6,5,1,2,5
+9977,Northern Ireland,Female,41,"GCSE, O Levels, SCE Standard, NVQ/SVQ Level 2 or equivalent",Yes,£431-£1500,No,Less than a year ,Every Saturday,4,4,4,5,5,5,2,2,2
