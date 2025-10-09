@@ -8,33 +8,24 @@
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
-
-
-
-<title>HPSP131 - Quantitative Methods in Psychological Research</title>
-
-<script src="site_libs/header-attrs-2.30/header-attrs.js"></script>
-<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
-<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
-<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
-<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<style>h1 {font-size: 34px;}
-       h1.title {font-size: 38px;}
-       h2 {font-size: 30px;}
-       h3 {font-size: 24px;}
-       h4 {font-size: 18px;}
-       h5 {font-size: 16px;}
-       h6 {font-size: 12px;}
-       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
-       pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
-<script src="site_libs/navigation-1.1/tabsets.js"></script>
+
+
+
+<title>Anthony J. Lee Research</title>
+
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131789985-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-131789985-2');
+</script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -64,543 +55,88 @@ if (window.hljs) {
 
 
 
-<style type = "text/css">
-.main-container {
-  max-width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-}
-img {
-  max-width:100%;
-}
-.tabbed-pane {
-  padding-top: 12px;
-}
-.html-widget {
-  margin-bottom: 20px;
-}
-button.code-folding-btn:focus {
-  outline: none;
-}
-summary {
-  display: list-item;
-}
-details > summary > p:only-child {
-  display: inline;
-}
-pre code {
-  padding: 0;
-}
-</style>
-
-
-<style type="text/css">
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #adb5bd;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
-}
-</style>
-
-<script type="text/javascript">
-// manage active state of menu based on current page
-$(document).ready(function () {
-  // active menu anchor
-  href = window.location.pathname
-  href = href.substr(href.lastIndexOf('/') + 1)
-  if (href === "")
-    href = "index.html";
-  var menuAnchor = $('a[href="' + href + '"]');
-
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
-
-  // Navbar adjustments
-  var navHeight = $(".navbar").first().height() + 15;
-  var style = document.createElement('style');
-  var pt = "padding-top: " + navHeight + "px; ";
-  var mt = "margin-top: -" + navHeight + "px; ";
-  var css = "";
-  // offset scroll position for anchor links (for fixed navbar)
-  for (var i = 1; i <= 6; i++) {
-    css += ".section h" + i + "{ " + pt + mt + "}\n";
-  }
-  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
-  document.head.appendChild(style);
-});
-</script>
-
-<!-- tabsets -->
-
-<style type="text/css">
-.tabset-dropdown > .nav-tabs {
-  display: inline-table;
-  max-height: 500px;
-  min-height: 44px;
-  overflow-y: auto;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "\e259";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "\e258";
-  font-family: 'Glyphicons Halflings';
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs > li.active {
-  display: block;
-}
-
-.tabset-dropdown > .nav-tabs > li > a,
-.tabset-dropdown > .nav-tabs > li > a:focus,
-.tabset-dropdown > .nav-tabs > li > a:hover {
-  border: none;
-  display: inline-block;
-  border-radius: 4px;
-  background-color: transparent;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
-  display: block;
-  float: none;
-}
-
-.tabset-dropdown > .nav-tabs > li {
-  display: none;
-}
-</style>
-
-<!-- code folding -->
-
-
-
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-
 
 </head>
 
 <body>
 
 
-<div class="container-fluid main-container">
 
 
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+<h1 class="title toc-ignore">Anthony J. Lee Research</h1>
 
 
 
-
-<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">HPSP131</a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li>
-  <a href="1intro.html">1. Intro</a>
-</li>
-<li>
-  <a href="2data.html">2. Data 1</a>
-</li>
-<li>
-  <a href="7GLM.html">3. Data 2</a>
-</li>
-<li>
-  <a href="3plot.html">4. Plot</a>
-</li>
-<li>
-  <a href="4LM1.html">5. ttest_ANOVA</a>
-</li>
-<li>
-  <a href="5LM2.html">6. Cor_Reg</a>
-</li>
-<li>
-  <a href="6mod.html">7. Mod</a>
-</li>
-<li>
-  <a href="8sim22.html">8. Pwr_Med</a>
-</li>
-<li>
-  <a href="9SEM.html">9. SEM</a>
-</li>
-<li>
-  <a href="10mixed.html">10. Mixed</a>
-</li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Extra
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="extra_chatGPT.html">Using ChatGPT to learn R</a>
-    </li>
-    <li>
-      <a href="extra_lists.html">Lists, Matrices, and Indexing</a>
-    </li>
-    <li>
-      <a href="extra_joins.html">Joining data.frames</a>
-    </li>
-    <li>
-      <a href="extra_cleaning.html">Cleaning and Data Preparation</a>
-    </li>
-    <li>
-      <a href="extra_chisquare.html">Chi-square Tests</a>
-    </li>
-    <li>
-      <a href="extra_nonparametric.html">Non-parametric Tests</a>
-    </li>
-    <li>
-      <a href="extra_logistic.html">Logistic Regression</a>
-    </li>
-    <li>
-      <a href="extra_functions.html">Custom Functions</a>
-    </li>
-    <li>
-      <a href="extra_simulation.html">Simulations</a>
-    </li>
-  </ul>
-</li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
-
-<div id="header">
-
-
-
-<h1 class="title toc-ignore">HPSP131 - Quantitative Methods in
-Psychological Research</h1>
-
-</div>
-
-
-<p>Last updated: Thu Oct 9 13:17:54 2025</p>
-<p>This module is designed to teach students the basic skills needed to
-conduct quantitative research in R. It covers data handling, data
-tidying, plotting, and analysing datasets. This is not meant to be a
-comprehensive guide to R (such a thing would be almost impossible!).
-Rather, this module is designed to be a gentle introduction to R, cover
-statistical techniques that are common in psychological research, and
-provide a solid base where you can investigate advanced techniques on
-your own. This website contains material covered in the demonstrations
-of the module. Additional “extra” pages are also available that
-introduce new concepts for students looking for an additional challenge.
-Weekly exercises are also available to students completing HPSP131 on
-Canvas.</p>
-<div id="syllabus" class="section level1">
-<h1>Syllabus</h1>
-<p>Each week, we will be tackling the following topics:</p>
-<ol style="list-style-type: decimal">
-<li>Introduction to R.</li>
-<li>Datasets in R.</li>
-<li>Data cleaning and data skills.</li>
-<li>Plotting data using ggplot2.</li>
-<li>t-tests and one-way ANOVAs.</li>
-<li>Correlation and regression.</li>
-<li>Moderation - multiple regression and two-way ANOVAs</li>
-<li>Power analyses and mediation.</li>
-<li>Structural Equation Modelling (Path Analysis)</li>
-<li>Mixed Effects Modelling (Multilevel Modelling)</li>
-</ol>
-</div>
-<div id="weekly-exercises" class="section level1">
-<h1>Weekly Exercises</h1>
-<p>For students completing HPSP131, exercises are available each week
-and are designed to reinforce content. These exercises are split into
-basic and advanced sections. It is expected that students can complete
-the basic sections of each weekly exercise, with the advanced sections
-designed for students who want an extra challenge or learn additional
-functions in R. If you can successfully complete these exercises, then
-you should be able to easily complete the marked assessments. Exercises
-are available on the HPSP131 Canvas page.</p>
-</div>
-<div id="before-you-start" class="section level1">
-<h1>Before You Start…</h1>
-<div id="complete-the-survey" class="section level2">
-<h2>Complete The Survey</h2>
-<p>Within these demonstrations, we will be analysing real data collected
-in a survey at the beginning of semester. Before beginning the first
-demonstration, it is a good idea to complete this survey yourself, as 1)
-it will give you an idea on how the data we are analysing was collected,
-and 2) if no one does the survey, then we won’t have any data to
-analyse!</p>
-<p><a href = "https://research.sc/participant/login/dynamic/6E5EF4C3-20FB-4210-AFB6-65A3FA8E7800">You
-can access the survey by clicking here.</a></p>
-</div>
-<div id="download-r" class="section level2">
-<h2>Download R</h2>
-<p>R is a free software environment for statistical computing and
-graphics. If you already have R installed on your computer, make sure
-you have the latest version. Otherwise, you can follow the instructions
-below to install R. R can be installed on most computers and laptops,
-but cannot generally be installed on tablets or Chromebooks.</p>
-<p>Note: Throughout the process of installing R and RStudio, do not
-change directories or roots. Always select the default options. Changing
-options can break links and cause many headaches down the line.</p>
-<ol style="list-style-type: decimal">
-<li><a href = "https://cran.ma.imperial.ac.uk" target = "_blank">Click
-here to go to the R download website (UK)</a></li>
-<li>Select your operating system (Linux, MacOS, or Windows).</li>
-<li>Windows users will want to click the ‘base’ subdirectory after
-selecting Windows, then click the Download R for Windows link. Mac users
-will want to download the most recent .pkg file.</li>
-<li>Select the latest release for your operating system to download to
-your computer.</li>
-<li>Open the downloaded file and follow the instructions.</li>
-</ol>
-</div>
-<div id="windows-users" class="section level2">
-<h2>Windows Users</h2>
-<p>Windows users will also need to download an additional extension
-called Rtools.</p>
-<ol style="list-style-type: decimal">
-<li><a href = https://cran.r-project.org/bin/windows/Rtools/ target = "_blank">Click
-here to go to the Rtools download site.</a></li>
-<li>Select the recommended version of Rtools.</li>
-<li>Open the downloaded install file and follow the instructions.</li>
-</ol>
-<p>Tip: Sometimes RStudio installs correctly but does not create a
-desktop icon. If this happens, search for “RStudio” using the Start menu
-(bottom-left Windows button).</p>
-</div>
-<div id="download-rstudio" class="section level2">
-<h2>Download RStudio</h2>
-<p>RStudio provides a graphical user interface for R. It is designed to
-make R easier to use. All content from this module will be conducted in
-RStudio.</p>
-<ol style="list-style-type: decimal">
-<li><a href = https://www.rstudio.com/products/rstudio/download/ target = "_blank">Click
-here to go to the RStudio download website.</a></li>
-<li>Select the RStudio Desktop version.</li>
-<li>Select the version for your operating system (Linux, MacOS, Windows,
-etc.)</li>
-<li>Open the downloaded file and follow the instructions.</li>
-</ol>
-<p>Note: Installing both R and RStudio will create two different icons.
-For this module, always open RStudio (not R).</p>
-<div class="float">
-<img src="images/RvsRstudio.png"
-alt="Make sure to open RStudio and not R" />
-<div class="figcaption">Make sure to open RStudio and not R</div>
-</div>
-</div>
-</div>
-<div id="resources" class="section level1">
-<h1>Resources</h1>
-<p>Many online tutorials are available for learning R that can be used
-to compliment the materials here. If you are feeling overwhelmed, or
-just looking for additional content, try some of the following
-courses:</p>
-<ol style="list-style-type: decimal">
-<li><a href="https://swirlstats.com">Swirl</a></li>
-<li><a
-href="https://posit.co/resources/videos/a-gentle-introduction-to-tidy-statistics-in-r/">RStudio
-Webinars</a></li>
-<li><a href="http://swcarpentry.github.io/r-novice-gapminder/">R for
-Reproducible Scientific Analysis</a></li>
-<li><a
-href="https://www.datacamp.com/courses/free-introduction-to-r">datacamp</a></li>
-<li>Google “r tutorials” for more or ask ChatGPT.</li>
-</ol>
-<p>Note: Often there are more than one way to do things in R. During
-this module, I will primarily be teaching R using the tidyverse
-packages, but you may find other ways to achieve the same objective. In
-all cases, you should go with the method that makes the most sense to
-you.</p>
-</div>
-
-
-
-</div>
-</div>
-
-</div>
-
-<script>
-
-// add bootstrap table styles to pandoc tables
-function bootstrapStylePandocTables() {
-  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.title {
+  display: none;
 }
-$(document).ready(function () {
-  bootstrapStylePandocTables();
-});
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Stirling.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+</style>
+</head>
+<body>
+<div class="hero-image">
+<div class="hero-text">
+<h1 style="font-size:42px">
+Anthony J. Lee Research
+</h1>
+<button onclick="window.location.href = &#39;about.html&#39;;">
+About The Lab
+</button>
+<button onclick="window.location.href = &#39;participate.html&#39;;">
+Participate In Research
+</button>
+</div>
+</div>
+</body>
+</html>
 
 
-</script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open');
-  });
-});
-</script>
 
 <!-- code folding -->
 
-<script>
-$(document).ready(function ()  {
-
-    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
-    $('.unlisted.unnumbered').addClass('toc-ignore')
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
